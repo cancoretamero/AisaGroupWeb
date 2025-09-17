@@ -1,42 +1,42 @@
-# Aisa Group · Executive Liquid Glass Experience
+# Aisa Group · Liquid Glass Executive Landing
 
-Reinterpretación del sitio de [Aisa Group](https://www.aisagroup.ca) como una experiencia monocromática futurista inspirada en iOS
-26. La interfaz propone narrativa ejecutiva continua con scroll infinito, módulos translúcidos y menú flotante digno de un hub de
-innovación corporativa.
+Concepto que reimagina [Aisa Group](https://www.aisagroup.ca) con una estética negra minimalista inspirada en iOS, glassmorphism y
+scroll narrativo continuo. Se utilizan textos reales extraídos del sitio oficial, reforzados con placeholders multimedia para
+sustituir por assets definitivos.
 
 ## Arquitectura
 
-- `index.html`: Estructura semántica reorganizada en frames (hero, manifiesto, portafolio, operaciones, ESG, presencia, insights y
-  contacto) con placeholders de video, imágenes y copy oficial de Aisa Group listo para personalización.
-- `styles.css`: Sistema visual liquid glass negro con gradientes dinámicos, componentes glassmorphism, carriles infinitos y diseño
-  responsive pensado para presentaciones ejecutivas.
-- `script.js`: Lógica de progreso, navegación activa, parallax adaptable, duplicación automática de loops (marquee y columnas
-  verticales) y soporte para `prefers-reduced-motion`.
+- `index.html`: Landing estructurada en escenas (hero, quiénes somos, divisiones, valores, sostenibilidad, sedes, historia, news
+  e contacto) con menús flotantes, progress rail y CTAs ejecutivos.
+- `styles.css`: Sistema visual "liquid glass" monocromático con gradientes dinámicos, tarjetas translúcidas, rejillas responsivas
+y animaciones de marquee/parallax controladas por `prefers-reduced-motion`.
+- `script.js`: Lógica para smooth scroll, progreso del documento, activación de navegación, intersecciones animadas, parallax y
+duplicación automática de marquees evitando efectos si el usuario prefiere menos movimiento.
 
 ## Puesta en marcha
 
-No requiere dependencias. Puedes abrir `index.html` directamente o levantar un servidor estático:
+No hay dependencias externas ni build steps. Abre `index.html` en el navegador o sirve la carpeta con tu herramienta favorita:
 
 ```bash
 python -m http.server 3000
 ```
 
-## Puntos destacados de la interfaz
+## Puntos destacados de la UI
 
-- **Command Center translúcido**: Header sticky con brand, navegación ejecutiva y chips de acción inmediata.
-- **Wayfinder + Floating Menu**: Barra lateral de progreso, menú flotante y botón de retorno para control total del scroll.
-- **Frames Liquid Glass**: Tarjetas, cápsulas y formularios con glassmorphism, indicadores y tipografía Space Grotesk.
-- **Loop infinito**: Carriles de portafolio e insights con duplicación automática para sensación de scroll continuo.
-- **Contenido real**: Copys y métricas extraídos del sitio oficial de Aisa Group para mantener coherencia de marca.
+- **Command Center flotante**: Header sticky con branding, links ejecutivos y chips de acción inmediata.
+- **Progress lift + dock**: Barra de progreso lateral, menú flotante inferior y botón "volver arriba" para control absoluto del
+  scroll largo.
+- **Hero inmersivo**: Video/imagen principal, stack fotográfico y métricas clave tomadas del copy institucional.
+- **Divisiones & sedes**: Cards con placeholders fotográficos listos para reemplazar por material propietario de cada unidad.
+- **ESG & valores**: Bloques dedicados al manifiesto, compromisos y programas sociales basados en la narrativa oficial.
+- **Noticias e insights**: Tarjetas con CTAs para conectar con newsroom, reportes ESG y comunicados.
 
-## Estrategia anti-conflictos
+## Personalización y buenas prácticas
 
-Para evitar conflictos de merge como los reportados anteriormente, sigue estas pautas antes de subir cambios:
-
-1. **Actualiza tu rama base**: `git fetch origin && git pull --rebase origin main` para partir desde la última versión.
-2. **Commits atómicos**: Agrupa cambios por funcionalidad (contenido, estilos, scripts). Evita reformateos masivos.
-3. **Respeta la arquitectura**: Añade nuevas secciones duplicando módulos existentes sin reordenar bloques innecesariamente.
-4. **Valida el árbol limpio**: Ejecuta `git status` y revisa el diff antes de hacer push; así detectas conflictos locales.
-5. **Documenta placeholders**: Mantén los enlaces a imágenes/videos como URLs externas para no versionar assets pesados.
+1. Sustituye imágenes y videos desde un CDN o CMS propio manteniendo la proporción indicada en cada placeholder.
+2. Ajusta el copy directamente en HTML; la tipografía y jerarquías ya están alineadas al tono corporativo.
+3. Si agregas secciones, duplica la estructura `scene` para conservar espaciados, animaciones y seguimiento en la progress bar.
+4. Antes de publicar, sincroniza tu rama con `main` (`git pull --rebase`) y revisa `git status` para evitar conflictos de merge.
+5. Documenta cualquier nueva sección o asset externo en este README para mantener la referencia del equipo.
 
 > Proyecto conceptual sin backend. Reemplaza textos, métricas y multimedia cuando dispongas de los assets finales aprobados.
