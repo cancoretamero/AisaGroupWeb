@@ -1,16 +1,16 @@
-# Aisa Group · Experiencia Liquid Glass
+# Aisa Group · Neo Liquid Glass Experience
 
-Landing conceptual en español inspirada en el universo "liquid glass" de iOS. La página reimagina el sitio de Aisa Group utilizando el contenido corporativo oficial y lo distribuye en una narrativa ejecutiva, minimalista y futurista.
+Exploración conceptual del sitio de [Aisa Group](https://www.aisagroup.ca) transformada en una experiencia monocromática "liquid glass" de inspiración iOS. La interfaz combina narrativa infinita, efectos de desplazamiento y componentes flotantes para una percepción futurista y ejecutiva.
 
 ## Arquitectura
 
-- `index.html`: estructura principal con secciones para inicio, quiénes somos, divisiones, operaciones, historia, sostenibilidad, galería y contacto.
-- `styles.css`: lenguaje visual en negro, blanco y grises con glassmorphism, animaciones suaves, placeholders para imágenes y video.
-- `script.js`: lógica para progreso de scroll, parallax, navegación contextual y duplicado automático de los tracks infinitos.
+- `index.html`: estructura semántica con escenas hero, manifiesto, capacidades, operaciones, legado, sostenibilidad, insights y contacto.
+- `styles.css`: lenguaje visual negro líquido con glassmorphism, tipografía futurista, grillas responsivas, animaciones de marquee y progresión.
+- `script.js`: lógica para scroll infinito (progreso, focus de navegación), animación parallax, duplicado de pistas marquee y control del menú flotante.
 
 ## Puesta en marcha
 
-No requiere dependencias. Abre `index.html` en tu navegador favorito o sirve la carpeta con tu herramienta preferida.
+No requiere dependencias adicionales. Puedes abrir `index.html` directamente o servir el proyecto con cualquier servidor estático:
 
 ```bash
 python -m http.server 3000
@@ -18,10 +18,9 @@ python -m http.server 3000
 
 ## Highlights de diseño
 
-- Copy oficial extraído de las secciones de Aisa Group (corporativo, divisiones, historia y sostenibilidad).
-- Hero con video placeholder, métricas y chips en marquee infinito.
-- Tarjetas líquidas para cada división: minería, energías renovables, carne e inmobiliario.
-- Operaciones destacadas, presencia global, timeline histórico y pilares de sostenibilidad.
-- Galería con placeholders listos para reemplazar por imágenes o videos reales y formulario de contacto minimalista.
+- Hero inmersivo con video placeholder, métricas de impacto y chips líquidos en marquee.
+- Menú principal flotante con CTA, progress bar lateral, wayfinder numérico y secciones ancladas.
+- Carrusel infinito de divisiones, stack de operaciones con glass cards y timeline animado.
+- Pilares ESG, insights, formulario translúcido y componentes preparados para reemplazar imágenes y videos reales.
 
-> Proyecto conceptual sin backend. Actualiza los placeholders multimedia y enlaces para tu despliegue final.
+> Proyecto conceptual sin backend. Actualiza textos, enlaces y placeholders multimedia con el material definitivo del cliente.

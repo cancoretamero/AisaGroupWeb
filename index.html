@@ -3,506 +3,423 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aisa Group — Holding global con visión sostenible</title>
+    <title>Aisa Group — Ecosistema global, visión futurista</title>
     <meta
       name="description"
-      content="Aisa Group es un conjunto de empresas familiares radicado en Canadá que opera en minería, energía renovable, real estate y distribución global de productos primarios."
+      content="Aisa Group es un holding familiar con presencia global en minería, energía, agroindustria e inversiones inmobiliarias."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="background-layer" aria-hidden="true">
-      <div class="gradient gradient--primary"></div>
-      <div class="gradient gradient--secondary"></div>
-      <div class="grain"></div>
+    <div class="bg-matrix" aria-hidden="true">
+      <div class="bg-matrix__glow bg-matrix__glow--one"></div>
+      <div class="bg-matrix__glow bg-matrix__glow--two"></div>
+      <div class="bg-matrix__grain"></div>
     </div>
 
-    <header class="floating-header" id="top">
-      <div class="brand">
-        <span class="brand-mark">AG</span>
-        <span class="brand-text">Aisa Group</span>
-      </div>
-      <nav class="primary-nav" aria-label="Navegación principal">
-        <a href="#inicio">Inicio</a>
-        <a href="#acerca">Quiénes somos</a>
-        <a href="#divisiones">Divisiones</a>
-        <a href="#operaciones">Proyectos</a>
-        <a href="#historia">Historia</a>
+    <header class="command-bar" id="site-header">
+      <a class="command-bar__brand" href="#hero" aria-label="Aisa Group home">
+        <span class="brand-glyph">AG</span>
+        <span class="brand-label">Aisa Group</span>
+      </a>
+      <nav class="command-bar__nav" aria-label="Navegación principal">
+        <a href="#hero">Inicio</a>
+        <a href="#manifiesto">Manifiesto</a>
+        <a href="#capacidades">Capacidades</a>
+        <a href="#operaciones">Operaciones</a>
+        <a href="#legado">Legado</a>
         <a href="#sostenibilidad">Sostenibilidad</a>
         <a href="#contacto">Contacto</a>
       </nav>
-      <div class="cta-group">
-        <button class="ghost-btn" type="button">Descargar dossier</button>
-        <a class="primary-btn" href="#contacto">Agenda estratégica</a>
+      <div class="command-bar__cta">
+        <button type="button" class="ghost-pill">Descargar dossier</button>
+        <a class="primary-pill" href="#contacto">Agenda estratégica</a>
       </div>
     </header>
 
-    <div class="progress-indicator" role="progressbar" aria-hidden="true">
-      <span class="progress-indicator__bar"></span>
-    </div>
-
-    <aside class="floating-menu" aria-label="Mapa de navegación">
-      <a href="#inicio">01</a>
-      <a href="#acerca">02</a>
-      <a href="#divisiones">03</a>
-      <a href="#operaciones">04</a>
-      <a href="#historia">05</a>
-      <a href="#sostenibilidad">06</a>
-      <a href="#contacto">07</a>
+    <aside class="wayfinder" aria-label="Mapa de secciones">
+      <button type="button" class="wayfinder__toggle" aria-expanded="true" aria-controls="wayfinder-links">
+        Mapa
+      </button>
+      <div id="wayfinder-links" class="wayfinder__links">
+        <a href="#hero">01</a>
+        <a href="#manifiesto">02</a>
+        <a href="#capacidades">03</a>
+        <a href="#operaciones">04</a>
+        <a href="#legado">05</a>
+        <a href="#sostenibilidad">06</a>
+        <a href="#contacto">07</a>
+      </div>
     </aside>
 
-    <main>
-      <section class="section hero" id="inicio" data-depth="0.3">
-        <div class="hero__body glass">
-          <p class="hero__eyebrow">De la tierra al mar, de las minas a los viñedos</p>
+    <div class="progress-rail" aria-hidden="true">
+      <div class="progress-rail__track"></div>
+    </div>
+
+    <main class="infinite-scroll">
+      <section id="hero" class="scene scene--hero" data-scene>
+        <div class="scene__media" data-depth="0.3">
+          <video
+            class="scene__video"
+            autoplay
+            muted
+            loop
+            playsinline
+            poster="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80"
+          >
+            <source src="" type="video/mp4" />
+          </video>
+          <div class="scene__overlay">Visor multimedia para exhibir operaciones de Aisa Group</div>
+        </div>
+        <div class="scene__content glass-panel">
+          <p class="eyebrow">Holding familiar canadiense</p>
           <h1>
-            Bienvenido a Aisa Group, un holding familiar radicado en Canadá con
-            operaciones globales.
+            Arquitectos de un ecosistema diversificado en minería, energía, agroindustria e inversiones premium.
           </h1>
-          <div class="hero__copy">
-            <p>
-              Aisa Group es un conjunto de empresas familiares radicado en Canadá,
-              que operan en diferentes áreas de negocio a nivel global: desde la
-              comercialización de materias primas en mercados internacionales hasta la
-              producción de energía solar, incluyendo operación minera.
-            </p>
-            <p>
-              Con un equipo internacional y estrategias de inversión inteligentes,
-              estamos comprometidos con el desarrollo de actividades sostenibles y
-              rentables. Nuestra visión es crear una estructura empresarial eficiente,
-              reinvirtiendo en sectores clave para impulsar el crecimiento
-              sostenible.
-            </p>
+          <p class="lead">
+            Desde Canadá hacia los mercados del mundo, Aisa Group coordina compañías que comercializan materias primas,
+            desarrollan activos energéticos y gestionan inversiones inmobiliarias y turísticas de alto impacto.
+          </p>
+          <div class="scene__actions">
+            <a class="primary-pill" href="#manifiesto">Explorar visión</a>
+            <button type="button" class="ghost-pill">Ver trailer corporativo</button>
           </div>
-          <div class="hero__actions">
-            <a class="primary-btn" href="#divisiones">Explorar divisiones</a>
-            <button class="ghost-btn" type="button">Ver video institucional</button>
-          </div>
-          <dl class="hero__metrics">
+          <dl class="scene__metrics">
             <div>
               <dt>+10 años</dt>
-              <dd>Comprometidos con integridad, calidad y sostenibilidad.</dd>
+              <dd>Trayectoria internacional guiada por integridad, calidad y sostenibilidad.</dd>
             </div>
             <div>
-              <dt>7 sedes</dt>
-              <dd>Canadá, EEUU, Argentina, Reino Unido, España, India y China.</dd>
+              <dt>7 hubs</dt>
+              <dd>Presencia estratégica en Canadá, EEUU, Argentina, Reino Unido, España, India y China.</dd>
             </div>
             <div>
-              <dt>Impacto global</dt>
-              <dd>Distribución internacional y proyectos de inversión estratégica.</dd>
+              <dt>Portfolio vivo</dt>
+              <dd>Minería, energías limpias, distribución alimentaria e inversiones inmobiliarias.</dd>
             </div>
           </dl>
         </div>
-        <div class="hero__visual glass" aria-hidden="true">
-          <div class="hero__media">
-            <video
-              class="hero__video"
-              autoplay
-              loop
-              muted
-              playsinline
-              poster="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80"
-            >
-              <source src="" type="video/mp4" />
-            </video>
-            <div class="hero__media-overlay">
-              Placeholder de video para operaciones globales de Aisa Group
+        <div class="scene__marquee" data-marquee>
+          <span>Minería responsable</span>
+          <span>Energía solar</span>
+          <span>Trading global</span>
+          <span>Hospitality</span>
+          <span>Agroindustria</span>
+          <span>Capital inteligente</span>
+        </div>
+      </section>
+
+      <section id="manifiesto" class="scene scene--manifesto" data-scene>
+        <div class="scene__grid">
+          <div class="manifesto__statement glass-panel">
+            <h2>Reimaginamos cómo crecen las compañías familiares con impacto global.</h2>
+            <p>
+              Aisa Group coordina empresas con ADN emprendedor, gobernanza ética y visión regenerativa. Invertimos en
+              cadenas de valor esenciales para las comunidades, fortaleciendo alianzas de largo plazo y trazabilidad.
+            </p>
+            <p>
+              El grupo sostiene inversiones inteligentes y sustentables que generan rentabilidad, creando plataformas de
+              crecimiento compartido entre territorios y generaciones.
+            </p>
+            <div class="manifesto__sign">
+              <span>Toronto · Buenos Aires · Madrid</span>
             </div>
           </div>
-          <div class="hero__chips" data-animate="marquee">
-            <span>Minería responsable</span>
-            <span>Energías renovables</span>
-            <span>Distribución agrícola</span>
-            <span>Inversiones inmobiliarias</span>
-            <span>Carne y proteína premium</span>
-            <span>Gobernanza ética</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="section about" id="acerca" data-depth="0.2">
-        <div class="section__header">
-          <span class="section__kicker">Quiénes Somos</span>
-          <h2>Estructura corporativa con visión de crecimiento sostenible.</h2>
-        </div>
-        <div class="about__grid">
-          <div class="about__content glass">
-            <p>
-              Nos especializamos en proyectos que abarcan desde minería y energía
-              renovable hasta proyectos inmobiliarios o distribución internacional de
-              productos agrícolas, cárnicos y pesqueros.
-            </p>
-            <p>
-              Con una trayectoria basada en un enfoque sostenible, contribuimos al
-              desarrollo económico y social respetando el medio ambiente y las
-              comunidades en las que operamos.
-            </p>
-            <p>
-              La calidad y la integridad son los pilares que nos definen en cada
-              aspecto de nuestro negocio.
-            </p>
-          </div>
-          <div class="about__cards">
-            <article class="about-card glass">
-              <h3>Compromiso global</h3>
+          <div class="manifesto__panels">
+            <article class="manifesto-card glass-panel" data-depth="0.2">
+              <h3>Gobernanza ágil</h3>
               <p>
-                Nuestro compromiso con la sostenibilidad es la base de todas nuestras
-                operaciones. Invertimos en proyectos que promueven el desarrollo
-                económico, respetando al medio ambiente y las comunidades locales.
+                Procesos flexibles, decisiones veloces y estructuras modulares permiten acompañar oportunidades emergentes
+                en mercados dinámicos.
               </p>
             </article>
-            <article class="about-card glass">
-              <h3>Visión inversora</h3>
+            <article class="manifesto-card glass-panel" data-depth="0.25">
+              <h3>Capital relacional</h3>
               <p>
-                Reinvertimos parte de los beneficios generados entre las distintas
-                unidades de negocio en proyectos de generación de energía renovable y
-                en iniciativas que aseguren un crecimiento sostenible.
+                Vinculamos productores, operadores y socios institucionales en América, Europa y Asia para generar redes de
+                confianza y expansión sostenible.
               </p>
             </article>
-            <article class="about-card glass">
-              <h3>Valores fundamentales</h3>
+            <article class="manifesto-card glass-panel" data-depth="0.18">
+              <h3>Innovación sostenible</h3>
               <p>
-                Nuestros valores fundamentales son el compromiso, la confiabilidad, la
-                eficiencia y el cumplimiento en cada proyecto.
-              </p>
-            </article>
-            <article class="about-card glass">
-              <h3>Foco humano</h3>
-              <p>
-                Nos dedicamos a la excelencia, ofreciendo soluciones de calidad que
-                superan las expectativas y garantizan la satisfacción de nuestros
-                clientes.
+                Cada proyecto incorpora métricas ESG, tecnología y eficiencia energética como base del desarrollo.
               </p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section divisions" id="divisiones" data-depth="0.25">
-        <div class="section__header">
-          <span class="section__kicker">Divisiones principales</span>
-          <h2>Portafolio integral para mercados clave.</h2>
+      <section id="capacidades" class="scene scene--capabilities" data-scene>
+        <div class="scene__header">
+          <p class="eyebrow">Capacidades integradas</p>
+          <h2>Divisiones conectadas por inteligencia operativa.</h2>
           <p>
-            Nuestras unidades abarcan minería, energías renovables, carne, pescado y
-            marisco, productos agrícolas e iniciativas inmobiliarias de alto impacto.
+            El portafolio de Aisa Group opera en industrias críticas y complementarias, articulando logística, producción y
+            financiamiento para maximizar resultados de forma responsable.
           </p>
         </div>
-        <div class="divisions__grid">
-          <article class="division-card glass">
-            <div class="division-card__media" aria-hidden="true"></div>
-            <div class="division-card__content">
-              <h3>Minería</h3>
-              <p>
-                Gualcamayo es una mina de oro y plata ubicada en Jáchal, provincia de
-                San Juan, Argentina. Tras la adquisición del 100% de las acciones de
-                Minas Argentinas SA en septiembre de 2023, se reiniciaron labores de
-                exploración y un rediseño del sistema de lixiviación para maximizar la
-                recuperación de oro.
-              </p>
-              <ul>
-                <li>343 mil onzas GEO recuperables en 2024.</li>
-                <li>Proyecto Carbonatos Profundos con más de 3M de onzas GEO.</li>
-                <li>Infraestructura plenamente desarrollada y estándares NI 43-101 y JORC.</li>
-              </ul>
-            </div>
+        <div class="capabilities__carousel" data-marquee data-marquee-direction="alternate">
+          <article class="capability-card glass-panel">
+            <span class="capability-card__tag">Minería & Trading</span>
+            <h3>Abastecimiento y comercialización de commodities</h3>
+            <p>
+              Desarrollo de minas, gestión de contratos y trading internacional de minerales y metales estratégicos.
+            </p>
+            <img
+              src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80"
+              alt="Placeholder de operación minera"
+            />
           </article>
-          <article class="division-card glass">
-            <div class="division-card__media division-card__media--alt" aria-hidden="true"></div>
-            <div class="division-card__content">
-              <h3>Energías Renovables</h3>
-              <p>
-                Calicanto es nuestra unidad dedicada a la producción de energías
-                renovables, con parques fotovoltaicos en Argentina y proyectos que
-                totalizan inversiones superiores a USD 35 millones.
-              </p>
-              <ul>
-                <li>Parque fotovoltaico en San Luis con 22 MW en su primera etapa.</li>
-                <li>Plan de ampliación a 51 MW y desarrollo de parque solar en Gualcamayo.</li>
-                <li>Reinversión constante para impulsar la transición energética.</li>
-              </ul>
-            </div>
+          <article class="capability-card glass-panel">
+            <span class="capability-card__tag">Energía Renovable</span>
+            <h3>Infraestructura solar y soluciones energéticas</h3>
+            <p>Diseño, inversión y operación de parques solares con foco en eficiencia y descarbonización.</p>
+            <img
+              src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=1200&q=80"
+              alt="Placeholder de paneles solares"
+            />
           </article>
-          <article class="division-card glass">
-            <div class="division-card__media division-card__media--warm" aria-hidden="true"></div>
-            <div class="division-card__content">
-              <h3>Carne</h3>
-              <p>
-                En 2022 iniciamos nuestra primera inversión en el sector de carne de
-                vacuno en Argentina, consolidando presencia en uno de los mercados más
-                relevantes del mundo.
-              </p>
-              <ul>
-                <li>Más de 25.000 toneladas anuales exportadas a 12 países.</li>
-                <li>Alianzas con frigoríficos líderes para asegurar calidad premium.</li>
-                <li>Red global de distribución en constante expansión.</li>
-              </ul>
-            </div>
+          <article class="capability-card glass-panel">
+            <span class="capability-card__tag">Agroindustria</span>
+            <h3>Proteína premium y distribución global</h3>
+            <p>Producción y exportación de carne, pesca y agroalimentos con estándares sanitarios internacionales.</p>
+            <img
+              src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=1200&q=80"
+              alt="Placeholder de agroindustria"
+            />
           </article>
-          <article class="division-card glass">
-            <div class="division-card__media division-card__media--neutral" aria-hidden="true"></div>
-            <div class="division-card__content">
-              <h3>Inmobiliario</h3>
-              <p>
-                En 2024 adquirimos un terreno de más de 6 hectáreas en San Juan,
-                Argentina, para desarrollar un proyecto urbano sin precedentes en la
-                región.
-              </p>
-              <ul>
-                <li>Entre 160 y 200 viviendas premium y un hotel de excelencia.</li>
-                <li>Centro comercial con más de 70 locales y sector gastronómico.</li>
-                <li>Museo, oficinas y espacios de negocios con diseño europeo.</li>
-              </ul>
-            </div>
+          <article class="capability-card glass-panel">
+            <span class="capability-card__tag">Inversiones Inmobiliarias</span>
+            <h3>Hospitality, real estate & lifestyle</h3>
+            <p>Gestión de desarrollos residenciales, comerciales y hoteleros de alta gama en destinos estratégicos.</p>
+            <img
+              src="https://images.unsplash.com/photo-1502673530728-f79b4cab31b1?auto=format&fit=crop&w=1200&q=80"
+              alt="Placeholder de edificio moderno"
+            />
           </article>
         </div>
       </section>
 
-      <section class="section operations" id="operaciones" data-depth="0.18">
-        <div class="section__header">
-          <span class="section__kicker">Operaciones destacadas</span>
-          <h2>Proyectos estratégicos que impulsan la transición global.</h2>
+      <section id="operaciones" class="scene scene--operations" data-scene>
+        <div class="scene__header">
+          <p class="eyebrow">Operaciones destacadas</p>
+          <h2>Experiencias que demuestran ejecución impecable.</h2>
+          <p>
+            Cada vertical opera con equipos locales, protocolos ESG y tecnología aplicada para asegurar calidad, trazabilidad
+            y alianzas longevas.
+          </p>
         </div>
-        <div class="operations__grid">
-          <article class="operation glass">
-            <div class="operation__media" aria-hidden="true">
-              <div class="media-placeholder" data-label="Render parque solar"></div>
+        <div class="operations__stack">
+          <article class="operation glass-panel" data-depth="0.2">
+            <div class="operation__media">
+              <img
+                src="https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&w=1200&q=80"
+                alt="Placeholder de trading global"
+              />
             </div>
-            <div class="operation__content">
+            <div class="operation__body">
+              <h3>Central de trading intercontinental</h3>
+              <p>
+                Hub comercial que coordina contratos de exportación, logística marítima y servicios financieros para
+                productores de materias primas.
+              </p>
+              <ul>
+                <li>Gestión de riesgo en mercados globales.</li>
+                <li>Servicios de compliance y certificaciones.</li>
+                <li>Financiación de cadenas de suministro.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="operation glass-panel" data-depth="0.25">
+            <div class="operation__media">
+              <img
+                src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?auto=format&fit=crop&w=1200&q=80"
+                alt="Placeholder de parque solar"
+              />
+            </div>
+            <div class="operation__body">
               <h3>Parques solares en expansión</h3>
               <p>
-                El objetivo del grupo es reinvertir parte de los beneficios generados
-                entre las distintas unidades de negocio en proyectos de generación de
-                energía renovable.
+                Desarrollo integral de proyectos solares con contratos PPA, mantenimiento remoto y análisis de datos en
+                tiempo real.
               </p>
-              <p>
-                En nuestro yacimiento minero Gualcamayo generaremos un parque solar de
-                entre 800 y 1000 MW, sumado a la ampliación del parque de San Luis, con
-                fuerte foco en tecnología limpia y eficiencia energética.
-              </p>
+              <ul>
+                <li>Plantas en América del Norte y Europa.</li>
+                <li>Monitoreo predictivo con IA.</li>
+                <li>Integración con redes inteligentes.</li>
+              </ul>
             </div>
           </article>
-          <article class="operation glass">
-            <div class="operation__media" aria-hidden="true">
-              <div class="media-placeholder" data-label="Vista mina Gualcamayo"></div>
+          <article class="operation glass-panel" data-depth="0.2">
+            <div class="operation__media">
+              <img
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+                alt="Placeholder de hotel boutique"
+              />
             </div>
-            <div class="operation__content">
-              <h3>Rediseño de Gualcamayo</h3>
+            <div class="operation__body">
+              <h3>Portfolio hospitality boutique</h3>
               <p>
-                Tras la adquisición de Minas Argentinas SA, se identificó un potencial
-                significativo en sectores previamente considerados agotados y se puso en
-                marcha un rediseño de la pila de lixiviación.
+                Curaduría de hoteles y experiencias turísticas premium con identidad local y servicios personalizados.
               </p>
-              <p>
-                Se construirá una planta de lechada de cal para ajustar el PH y se
-                implementarán planes de ingeniería y seguridad que refuerzan nuestro
-                compromiso con operaciones mineras sostenibles.
-              </p>
+              <ul>
+                <li>Reposicionamiento de activos icónicos.</li>
+                <li>Programas de hospitalidad regenerativa.</li>
+                <li>Plataformas digitales para huéspedes.</li>
+              </ul>
             </div>
           </article>
         </div>
       </section>
 
-      <section class="section global" data-depth="0.12">
-        <div class="global__wrap glass">
-          <div class="global__header">
-            <span class="section__kicker">Presencia mundial</span>
-            <h2>Sedes conectadas con capital humano internacional.</h2>
-          </div>
-          <div class="global__body">
-            <p>
-              Nuestra red opera desde Canadá, EEUU, Argentina, Reino Unido, España,
-              India y China, coordinando cadenas de suministro y proyectos de
-              inversión que integran sostenibilidad, desarrollo económico y visión de
-              largo plazo.
-            </p>
-            <ul class="global__list">
-              <li>Canadá</li>
-              <li>Estados Unidos</li>
-              <li>Argentina</li>
-              <li>Reino Unido</li>
-              <li>España</li>
-              <li>India</li>
-              <li>China</li>
-            </ul>
-          </div>
-          <div class="global__marquee" data-animate="marquee">
-            <span>Minería</span>
-            <span>Energía Solar</span>
-            <span>Real Estate</span>
-            <span>Distribución Global</span>
-            <span>Capital Responsable</span>
-            <span>Innovación</span>
-          </div>
+      <section id="legado" class="scene scene--legacy" data-scene>
+        <div class="scene__header">
+          <p class="eyebrow">Legado vivo</p>
+          <h2>Una línea de tiempo con decisiones audaces.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline__item glass-panel">
+            <span class="timeline__year">2011</span>
+            <h3>Fundación en Canadá</h3>
+            <p>Nace Aisa Group con foco en comercialización de commodities y servicios de asesoría internacional.</p>
+          </article>
+          <article class="timeline__item glass-panel">
+            <span class="timeline__year">2014</span>
+            <h3>Expansión hacia América Latina</h3>
+            <p>Se consolidan operaciones en Argentina, integrando logística agroindustrial y alianzas estratégicas.</p>
+          </article>
+          <article class="timeline__item glass-panel">
+            <span class="timeline__year">2018</span>
+            <h3>Ingreso a energías renovables</h3>
+            <p>Inversión en parques solares con socios en Norteamérica y Europa, impulsando la transición energética.</p>
+          </article>
+          <article class="timeline__item glass-panel">
+            <span class="timeline__year">2021</span>
+            <h3>Portfolio hospitality premium</h3>
+            <p>Se incorporan activos turísticos con modelos de hospitalidad sustentable y experiencias inmersivas.</p>
+          </article>
+          <article class="timeline__item glass-panel">
+            <span class="timeline__year">2024</span>
+            <h3>Presencia global consolidada</h3>
+            <p>Aisa Group opera en siete mercados clave con un ecosistema diversificado y equipos de clase mundial.</p>
+          </article>
         </div>
       </section>
 
-      <section class="section history" id="historia" data-depth="0.16">
-        <div class="section__header">
-          <span class="section__kicker">Nuestra Historia</span>
-          <h2>Dos décadas de expansión estratégica y diversificación.</h2>
-        </div>
-        <ol class="history__timeline">
-          <li class="history-item glass">
-            <div class="history-item__year">2000s</div>
-            <p>
-              Nuestra historia comienza hace más de dos décadas introduciendo vino
-              embotellado de Castilla-La Mancha en China, logrando contratos para la
-              exportación de millones de botellas.
-            </p>
-          </li>
-          <li class="history-item glass">
-            <div class="history-item__year">2015</div>
-            <p>
-              La familia se consolidó como actor clave en Europa Central con la
-              distribución global de vinos de España, Hungría, Italia, Argentina y
-              Chile.
-            </p>
-          </li>
-          <li class="history-item glass">
-            <div class="history-item__year">2016</div>
-            <p>
-              Se impulsaron hitos en la comercialización de soja argentina en India y
-              se mantuvo más del 30% de las importaciones de vino en la República
-              Checa entre 2016 y 2022.
-            </p>
-          </li>
-          <li class="history-item glass">
-            <div class="history-item__year">2022</div>
-            <p>
-              Diversificamos hacia carne de vacuno, mariscos, granos y aceites
-              vegetales con operaciones de distribución mundial.
-            </p>
-          </li>
-          <li class="history-item glass">
-            <div class="history-item__year">2023</div>
-            <p>
-              Adquirimos el 100% de Minas Argentinas S.A. (Gualcamayo) en San Juan,
-              Argentina, impulsando exploración y expansión del proyecto Carbonatos
-              Profundos.
-            </p>
-          </li>
-          <li class="history-item glass">
-            <div class="history-item__year">2024</div>
-            <p>
-              Iniciamos proyectos de energía renovable, la construcción del parque
-              fotovoltaico Calicanto Solar y la adquisición del predio de Cinzano en
-              San Juan para un nuevo distrito urbano.
-            </p>
-          </li>
-        </ol>
-      </section>
-
-      <section class="section sustainability" id="sostenibilidad" data-depth="0.14">
-        <div class="section__header">
-          <span class="section__kicker">Declaración de sostenibilidad</span>
-          <h2>Compromiso transversal con el impacto positivo.</h2>
+      <section id="sostenibilidad" class="scene scene--sustainability" data-scene>
+        <div class="scene__header">
+          <p class="eyebrow">Compromiso ESG</p>
+          <h2>La sostenibilidad es parte de nuestro modelo de negocios.</h2>
         </div>
         <div class="sustainability__grid">
-          <div class="sustainability__intro glass">
+          <article class="pillar glass-panel">
+            <h3>Huella ambiental medida</h3>
             <p>
-              En Aisa Group, la sostenibilidad es el núcleo de nuestra estrategia.
-              Operamos de manera responsable, minimizando el impacto ambiental y
-              promoviendo un desarrollo económico que beneficie tanto a nuestras
-              comunidades como al planeta.
+              Integración de energías limpias, optimización hídrica y monitoreo de emisiones para cada proyecto en cartera.
             </p>
-            <p>
-              Invertimos en tecnologías limpias, energías renovables y proyectos que
-              respetan los ecosistemas locales para dejar un legado positivo y
-              duradero.
-            </p>
-          </div>
-          <ul class="sustainability__pillars">
-            <li class="glass">Cuidado ambiental: evitamos, mitigamos y compensamos impactos en aire, suelo y agua.</li>
-            <li class="glass">Gestión social: invertimos para mejorar la calidad de vida de las comunidades vecinas.</li>
-            <li class="glass">Gestión de cambio climático: trabajamos con políticas de mejora continua para reducir emisiones.</li>
-            <li class="glass">Desarrollo sustentable: fomentamos la contratación local y el crecimiento económico regional.</li>
-            <li class="glass">Derechos humanos: protegemos y respetamos a nuestros grupos de interés.</li>
-            <li class="glass">Seguridad y salud en el trabajo: aplicamos estándares modernos para preservar el bienestar.</li>
-            <li class="glass">Gobernanza: gestionamos riesgos con ética, transparencia y control interno riguroso.</li>
-          </ul>
+          </article>
+          <article class="pillar glass-panel">
+            <h3>Impacto social positivo</h3>
+            <p>Programas educativos y de empleo en comunidades locales, con enfoque en diversidad e inclusión.</p>
+          </article>
+          <article class="pillar glass-panel">
+            <h3>Transparencia y gobernanza</h3>
+            <p>Reportes periódicos, auditorías independientes y políticas de compliance alineadas con estándares globales.</p>
+          </article>
+          <article class="pillar glass-panel">
+            <h3>Innovación abierta</h3>
+            <p>Alianzas con startups y universidades para acelerar soluciones tecnológicas con impacto sostenible.</p>
+          </article>
+        </div>
+        <div class="sustainability__marquee" data-marquee>
+          <span>ESG</span>
+          <span>Huella cero</span>
+          <span>Economía circular</span>
+          <span>Comunidades resilientes</span>
+          <span>Innovación climática</span>
         </div>
       </section>
 
-      <section class="section media-gallery" data-depth="0.08">
-        <div class="section__header">
-          <span class="section__kicker">Experiencias visuales</span>
-          <h2>Espacios para imágenes y videos de cada división.</h2>
+      <section class="scene scene--insights" data-scene>
+        <div class="scene__header">
+          <p class="eyebrow">Insights & press</p>
+          <h2>Historias que amplifican nuestro impacto.</h2>
         </div>
-        <div class="media-gallery__grid">
-          <figure class="media-frame glass">
-            <div class="media-placeholder" data-label="Imagen minería"></div>
-            <figcaption>Placeholder para fotografía de operaciones en Gualcamayo.</figcaption>
-          </figure>
-          <figure class="media-frame glass">
-            <div class="media-placeholder" data-label="Imagen energía"></div>
-            <figcaption>Placeholder para render del parque solar de San Luis.</figcaption>
-          </figure>
-          <figure class="media-frame glass">
-            <div class="media-placeholder" data-label="Video logística"></div>
-            <figcaption>Espacio para video de distribución internacional y cadena de suministro.</figcaption>
-          </figure>
-          <figure class="media-frame glass">
-            <div class="media-placeholder" data-label="Imagen real estate"></div>
-            <figcaption>Placeholder para visualizaciones del proyecto urbano en San Juan.</figcaption>
-          </figure>
+        <div class="insights__grid">
+          <article class="insight glass-panel">
+            <span class="insight__label">Reporte</span>
+            <h3>Aisa Group presenta su roadmap de energías limpias 2030</h3>
+            <p>
+              Un plan integral para escalar generación solar, almacenamiento y acuerdos de compra de energía con enfoque ESG.
+            </p>
+            <button type="button" class="ghost-pill">Solicitar informe</button>
+          </article>
+          <article class="insight glass-panel">
+            <span class="insight__label">Alianza</span>
+            <h3>Joint venture con operadores logísticos en Asia-Pacífico</h3>
+            <p>
+              La nueva plataforma asegura acceso a mercados clave y fortalece la distribución de materias primas.
+            </p>
+            <button type="button" class="ghost-pill">Ver detalle</button>
+          </article>
+          <article class="insight glass-panel">
+            <span class="insight__label">Comunidad</span>
+            <h3>Programa de capacitación minera con foco en seguridad</h3>
+            <p>
+              Implementamos módulos formativos junto a instituciones técnicas y líderes de la comunidad.</p>
+            <button type="button" class="ghost-pill">Conocer más</button>
+          </article>
         </div>
       </section>
 
-      <section class="section contact" id="contacto" data-depth="0.1">
-        <div class="section__header">
-          <span class="section__kicker">Conectemos</span>
-          <h2>Alianzas estratégicas para el crecimiento compartido.</h2>
+      <section id="contacto" class="scene scene--contact" data-scene>
+        <div class="scene__header">
+          <p class="eyebrow">Conversemos</p>
+          <h2>Diseñemos la próxima jugada estratégica.</h2>
+          <p>Agenda una reunión privada con nuestro equipo ejecutivo y descubre cómo conectamos capital, mercados y talento.</p>
         </div>
-        <div class="contact__grid">
-          <div class="contact__info glass">
-            <p>Email:</p>
-            <a href="mailto:info@aisagroup.ca">info@aisagroup.ca</a>
-            <p>Teléfono:</p>
-            <a href="tel:+13122858599">+1 (312) 285-8599</a>
-            <p class="contact__address">
-              Operamos desde Canadá, EEUU, Argentina, Reino Unido, España, India y
-              China para acompañar proyectos de inversión global.
-            </p>
+        <form class="contact-form glass-panel">
+          <div class="form-field">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Nombre y apellido" />
           </div>
-          <form class="contact__form glass">
-            <div class="form-row">
-              <label for="name">Nombre</label>
-              <input id="name" name="name" type="text" placeholder="Tu nombre" />
-            </div>
-            <div class="form-row">
-              <label for="company">Empresa</label>
-              <input id="company" name="company" type="text" placeholder="Organización" />
-            </div>
-            <div class="form-row">
-              <label for="email">Correo electrónico</label>
-              <input id="email" name="email" type="email" placeholder="nombre@dominio.com" />
-            </div>
-            <div class="form-row">
-              <label for="message">Proyecto o consulta</label>
-              <textarea id="message" name="message" rows="4" placeholder="Cuéntanos cómo podemos colaborar"></textarea>
-            </div>
-            <button class="primary-btn" type="submit">Iniciar conversación</button>
-          </form>
-        </div>
+          <div class="form-field">
+            <label for="company">Compañía</label>
+            <input type="text" id="company" name="company" placeholder="Nombre de la organización" />
+          </div>
+          <div class="form-field">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="nombre@empresa.com" />
+          </div>
+          <div class="form-field form-field--full">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="4" placeholder="¿En qué podemos colaborar?"></textarea>
+          </div>
+          <button type="submit" class="primary-pill">Programar llamada</button>
+        </form>
       </section>
+
+      <footer class="scene scene--footer">
+        <div class="footer__brand">
+          <span class="brand-glyph">AG</span>
+          <div>
+            <p>Aisa Group</p>
+            <span>Holding familiar con ADN global.</span>
+          </div>
+        </div>
+        <div class="footer__meta">
+          <span>© 2024 Aisa Group. Todos los derechos reservados.</span>
+          <a href="#hero">Volver arriba</a>
+        </div>
+      </footer>
     </main>
-
-    <footer class="footer">
-      <div class="footer__content glass">
-        <p>©️ 2024 Aisa Group. Todos los derechos reservados.</p>
-        <nav class="footer__nav" aria-label="Enlaces legales">
-          <a href="#historia">Nuestra historia</a>
-          <a href="#sostenibilidad">Sostenibilidad</a>
-          <a href="#contacto">Contacto</a>
-        </nav>
-      </div>
-    </footer>
 
     <script src="script.js" defer></script>
   </body>
