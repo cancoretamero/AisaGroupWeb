@@ -16,7 +16,7 @@ export function StickyCta() {
           transition={{ duration: 0.24, ease: [0.22, 1, 0.36, 1] }}
           className="font-display text-[clamp(2.75rem,4.5vw,4rem)] leading-[1.15]"
         >
-          [Únete a la revolución]
+          Join the agricultural revolution today.
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 24 }}
@@ -25,20 +25,21 @@ export function StickyCta() {
           transition={{ delay: 0.12, duration: 0.24, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-2xl text-lg leading-relaxed text-slate-200"
         >
-          [Copy_Breve_150]
+          Scale regenerative performance with a partner that blends human expertise, automation, and financial stewardship into
+          every decision.
         </motion.p>
         <div className="flex flex-wrap items-center gap-4">
           <Link
             href="#lead"
             className="rounded-full bg-brand px-6 py-3 text-base font-semibold text-white shadow-card transition hover:bg-accent"
           >
-            [Texto_Boton_16]
+            Schedule a strategy call
           </Link>
           <Link
-            href="#products"
+            href="/img/placeholder_og.svg"
             className="rounded-full border border-white/30 px-6 py-3 text-base font-semibold text-white transition hover:border-white"
           >
-            [Texto_Boton_17]
+            Download overview
           </Link>
         </div>
       </div>

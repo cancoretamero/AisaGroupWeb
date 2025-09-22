@@ -5,22 +5,22 @@
       "cases": [
         {
           "id": "case-1",
-          "title": "[Copy_Breve_15]",
-          "excerpt": "[Copy_Breve_16]",
+          "title": "Verdant Alliance Cooperative",
+          "excerpt": "Unified drone imagery and soil telemetry across 14,000 hectares, cutting water use by 28% while elevating crop quality benchmarks.",
           "logo": "svg/logo_placeholder_1.svg",
           "image": "img/placeholder_2.svg"
         },
         {
           "id": "case-2",
-          "title": "[Copy_Breve_17]",
-          "excerpt": "[Copy_Breve_18]",
+          "title": "Solterra Estates",
+          "excerpt": "Delivered predictive harvest scheduling and cold-chain traceability for premium olive groves serving luxury retailers.",
           "logo": "svg/logo_placeholder_2.svg",
           "image": "img/placeholder_3.svg"
         },
         {
           "id": "case-3",
-          "title": "[Copy_Breve_19]",
-          "excerpt": "[Copy_Breve_20]",
+          "title": "Aurelia Orchards",
+          "excerpt": "Orchestrated climate-smart automation that sustains year-round berry production with 35% lower energy consumption.",
           "logo": "svg/logo_placeholder_3.svg",
           "image": "img/placeholder_4.svg"
         }
@@ -28,46 +28,46 @@
       "posts": [
         {
           "id": "post-1",
-          "category": "[Copy_Breve_21]",
-          "date": "[Copy_Breve_22]",
-          "title": "[Copy_Breve_23]",
-          "excerpt": "[Copy_Breve_24]",
+          "category": "Insights",
+          "date": "12 Jun 2024",
+          "title": "How sensory twins redefine field visibility",
+          "excerpt": "We breakdown the data models translating raw telemetry into decisions growers can act on in minutes instead of weeks.",
           "image": "img/placeholder_5.svg"
         },
         {
           "id": "post-2",
-          "category": "[Copy_Breve_25]",
-          "date": "[Copy_Breve_26]",
-          "title": "[Copy_Breve_27]",
-          "excerpt": "[Copy_Breve_28]",
+          "category": "Sustainability",
+          "date": "27 May 2024",
+          "title": "Designing regenerative milestones for investors",
+          "excerpt": "Capital markets increasingly demand quantified stewardship — here is how to deliver it without slowing operations.",
           "image": "img/placeholder_6.svg"
         },
         {
           "id": "post-3",
-          "category": "[Copy_Breve_29]",
-          "date": "[Copy_Breve_30]",
-          "title": "[Copy_Breve_31]",
-          "excerpt": "[Copy_Breve_32]",
+          "category": "Product",
+          "date": "08 May 2024",
+          "title": "A tour of the Rurivo command studio",
+          "excerpt": "From climate overlays to automation triggers, explore the interface powering our most sophisticated estates.",
           "image": "img/placeholder_7.svg"
         }
       ],
       "products": [
         {
           "id": "product-1",
-          "title": "[Copy_Breve_33]",
-          "description": "[Copy_Breve_34]",
+          "title": "Nutrient Response Engine",
+          "description": "AI-guided fertigation recipes adapt to crop stages and micro-climate signals in real time.",
           "image": "img/placeholder_8.svg"
         },
         {
           "id": "product-2",
-          "title": "[Copy_Breve_35]",
-          "description": "[Copy_Breve_36]",
+          "title": "Climate Pulse Dashboard",
+          "description": "Hyperlocal forecasts, risk alerts, and mitigation playbooks for every plot under management.",
           "image": "img/placeholder_9.svg"
         },
         {
           "id": "product-3",
-          "title": "[Copy_Breve_37]",
-          "description": "[Copy_Breve_38]",
+          "title": "Canopy Robotics Kit",
+          "description": "Modular robotic hardware paired with computer vision keeps labour-intensive tasks precise and safe.",
           "image": "img/placeholder_10.svg"
         }
       ]
@@ -77,22 +77,22 @@
       "cases": [
         {
           "id": "case-4",
-          "title": "[Copy_Breve_39]",
-          "excerpt": "[Copy_Breve_40]",
+          "title": "Northwind Grains",
+          "excerpt": "Connected 32 dispersed fields with autonomous vehicles and AI to lift yields by 19% and lower waste dramatically.",
           "logo": "svg/logo_placeholder_4.svg",
           "image": "img/placeholder_11.svg"
         },
         {
           "id": "case-5",
-          "title": "[Copy_Breve_41]",
-          "excerpt": "[Copy_Breve_42]",
+          "title": "Luminous Greens",
+          "excerpt": "Enabled a vertical farm to operate 24/7 with adaptive lighting, nutrition, and workforce coordination from one hub.",
           "logo": "svg/logo_placeholder_5.svg",
           "image": "img/placeholder_12.svg"
         },
         {
           "id": "case-6",
-          "title": "[Copy_Breve_43]",
-          "excerpt": "[Copy_Breve_44]",
+          "title": "Riviera Terraces",
+          "excerpt": "Revived hillside vineyards using regenerative rotations, biodiversity tracking, and predictive disease management.",
           "logo": "svg/logo_placeholder_6.svg",
           "image": "img/placeholder_13.svg"
         }
@@ -100,46 +100,46 @@
       "posts": [
         {
           "id": "post-4",
-          "category": "[Copy_Breve_45]",
-          "date": "[Copy_Breve_46]",
-          "title": "[Copy_Breve_47]",
-          "excerpt": "[Copy_Breve_48]",
+          "category": "Field Notes",
+          "date": "19 Apr 2024",
+          "title": "Automation lessons from mixed-terrain farms",
+          "excerpt": "What we learned deploying robotics across slopes, terraces, and expansive plains during the last harvest cycle.",
           "image": "img/placeholder_14.svg"
         },
         {
           "id": "post-5",
-          "category": "[Copy_Breve_49]",
-          "date": "[Copy_Breve_50]",
-          "title": "[Copy_Breve_51]",
-          "excerpt": "[Copy_Breve_52]",
+          "category": "Capital",
+          "date": "02 Apr 2024",
+          "title": "Financing frameworks for regenerative upgrades",
+          "excerpt": "Five funding models agribusiness leaders are using to retrofit infrastructure without sacrificing cash flow.",
           "image": "img/placeholder_15.svg"
         },
         {
           "id": "post-6",
-          "category": "[Copy_Breve_53]",
-          "date": "[Copy_Breve_54]",
-          "title": "[Copy_Breve_55]",
-          "excerpt": "[Copy_Breve_56]",
+          "category": "Research",
+          "date": "14 Mar 2024",
+          "title": "Linking carbon programmes with supply chain trust",
+          "excerpt": "Traceability and carbon accounting no longer live apart — here is the blueprint to merge them.",
           "image": "img/placeholder_16.svg"
         }
       ],
       "products": [
         {
           "id": "product-4",
-          "title": "[Copy_Breve_57]",
-          "description": "[Copy_Breve_58]",
+          "title": "Regenerative Ledger",
+          "description": "Document ecosystem services, certifications, and stakeholder evidence in a tamper-proof record.",
           "image": "img/placeholder_17.svg"
         },
         {
           "id": "product-5",
-          "title": "[Copy_Breve_59]",
-          "description": "[Copy_Breve_60]",
+          "title": "Marketplace Orchestrator",
+          "description": "Integrate buyers, logistics partners, and compliance teams for end-to-end fulfilment clarity.",
           "image": "img/placeholder_18.svg"
         },
         {
           "id": "product-6",
-          "title": "[Copy_Breve_61]",
-          "description": "[Copy_Breve_62]",
+          "title": "Carbon Yield Forecaster",
+          "description": "Model revenue from sequestration, biodiversity credits, and avoided emissions alongside crop outputs.",
           "image": "img/placeholder_19.svg"
         }
       ]
@@ -149,22 +149,22 @@
       "cases": [
         {
           "id": "case-7",
-          "title": "[Copy_Breve_63]",
-          "excerpt": "[Copy_Breve_64]",
+          "title": "Andes BioFarms",
+          "excerpt": "Deployed edge-to-cloud operations linking remote mountain plots with central agronomy teams in real time.",
           "logo": "svg/logo_placeholder_7.svg",
           "image": "img/placeholder_20.svg"
         },
         {
           "id": "case-8",
-          "title": "[Copy_Breve_65]",
-          "excerpt": "[Copy_Breve_66]",
+          "title": "Azure Delta Collective",
+          "excerpt": "Monitored floodplains and saline intrusion to protect rice harvests while improving biodiversity indices.",
           "logo": "svg/logo_placeholder_8.svg",
           "image": "img/placeholder_21.svg"
         },
         {
           "id": "case-9",
-          "title": "[Copy_Breve_67]",
-          "excerpt": "[Copy_Breve_68]",
+          "title": "Helios Agro Group",
+          "excerpt": "Coordinated a multi-country horticulture portfolio with shared standards, automations, and stewardship targets.",
           "logo": "svg/logo_placeholder_9.svg",
           "image": "img/placeholder_22.svg"
         }
@@ -172,46 +172,46 @@
       "posts": [
         {
           "id": "post-7",
-          "category": "[Copy_Breve_69]",
-          "date": "[Copy_Breve_70]",
-          "title": "[Copy_Breve_71]",
-          "excerpt": "[Copy_Breve_72]",
+          "category": "Operations",
+          "date": "21 Feb 2024",
+          "title": "Training agronomy teams for AI collaboration",
+          "excerpt": "How to upskill field experts to interpret and challenge machine recommendations responsibly.",
           "image": "img/placeholder_23.svg"
         },
         {
           "id": "post-8",
-          "category": "[Copy_Breve_73]",
-          "date": "[Copy_Breve_74]",
-          "title": "[Copy_Breve_75]",
-          "excerpt": "[Copy_Breve_76]",
+          "category": "Community",
+          "date": "05 Feb 2024",
+          "title": "Building grower networks that share more than data",
+          "excerpt": "Peer learning circles, seasonal salons, and co-innovation funds that accelerate transformation.",
           "image": "img/placeholder_24.svg"
         },
         {
           "id": "post-9",
-          "category": "[Copy_Breve_77]",
-          "date": "[Copy_Breve_78]",
-          "title": "[Copy_Breve_79]",
-          "excerpt": "[Copy_Breve_80]",
+          "category": "Governance",
+          "date": "18 Jan 2024",
+          "title": "Reporting standards regulators actually trust",
+          "excerpt": "A playbook for aligning auditors, policymakers, and retailers behind a single transparency narrative.",
           "image": "img/placeholder_25.svg"
         }
       ],
       "products": [
         {
           "id": "product-7",
-          "title": "[Copy_Breve_81]",
-          "description": "[Copy_Breve_82]",
+          "title": "Traceability Canvas",
+          "description": "Design consumer-facing provenance stories with dynamic data pulled straight from the field.",
           "image": "img/placeholder_26.svg"
         },
         {
           "id": "product-8",
-          "title": "[Copy_Breve_83]",
-          "description": "[Copy_Breve_84]",
+          "title": "Agro-Finance Console",
+          "description": "Blend operational metrics with financial models to inform investors and CFOs in real time.",
           "image": "img/placeholder_27.svg"
         },
         {
           "id": "product-9",
-          "title": "[Copy_Breve_85]",
-          "description": "[Copy_Breve_86]",
+          "title": "Community Learning Hub",
+          "description": "A streaming hub for workshops, certifications, and knowledge exchanges across the Rurivo ecosystem.",
           "image": "img/placeholder_28.svg"
         }
       ]

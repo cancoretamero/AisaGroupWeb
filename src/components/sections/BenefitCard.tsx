@@ -24,7 +24,7 @@ export function BenefitCard({ benefit, index }: { benefit: Benefit; index: numbe
         type="button"
         className="mt-auto inline-flex w-fit items-center gap-2 rounded-full border border-transparent bg-brand/10 px-4 py-2 text-sm font-semibold text-brand transition hover:bg-brand hover:text-white"
       >
-        [Texto_Boton_9]
+        Learn more
         <span aria-hidden>→</span>
       </button>
     </motion.article>

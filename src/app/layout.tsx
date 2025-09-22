@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.placeholder-agritech.com"),
-  title: "[Meta_Title]",
-  description: "[Meta_Description]",
+  metadataBase: new URL("https://www.rurivo.com"),
+  title: "Rurivo | Bring Fresh Growth to Agriculture",
+  description:
+    "Rurivo unifies precision sensing, climate intelligence, and automated field workflows to help ambitious growers scale sustainable performance.",
   openGraph: {
-    title: "[Meta_Title]",
-    description: "[Meta_Description]",
-    url: "https://www.placeholder-agritech.com",
-    siteName: "[Meta_Title]",
+    title: "Rurivo | Bring Fresh Growth to Agriculture",
+    description:
+      "Explore Rurivo's agritech platform that blends sensor intelligence, regenerative practices, and human expertise for premium agricultural operations.",
+    url: "https://www.rurivo.com",
+    siteName: "Rurivo",
     locale: "es_ES",
     type: "website",
     images: [
@@ -17,18 +19,19 @@ export const metadata: Metadata = {
         url: "/img/placeholder_og.svg",
         width: 1200,
         height: 630,
-        alt: "[Alt_Imagen_1]",
+        alt: "Aerial photograph of verdant agricultural fields under soft morning light",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "[Meta_Title]",
-    description: "[Meta_Description]",
+    title: "Rurivo | Bring Fresh Growth to Agriculture",
+    description:
+      "Discover how Rurivo orchestrates data, automation, and sustainability insights for modern growers.",
     images: ["/img/placeholder_og.svg"],
   },
   alternates: {
-    canonical: "https://www.placeholder-agritech.com",
+    canonical: "https://www.rurivo.com",
   },
 };
 

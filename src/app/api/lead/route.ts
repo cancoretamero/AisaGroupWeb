@@ -17,7 +17,7 @@ export async function POST(request: Request) {
     }
 
     return new Response(
-      JSON.stringify({ ok: true, message: "[Copy_Breve_89]" }),
+      JSON.stringify({ ok: true, message: "Thanks for reaching out. Our agronomy desk will reply within one business day." }),
       {
         status: 200,
         headers: { "Content-Type": "application/json" },
@@ -25,7 +25,7 @@ export async function POST(request: Request) {
     );
   } catch {
     return new Response(
-      JSON.stringify({ ok: false, message: "[Copy_Breve_90]" }),
+      JSON.stringify({ ok: false, message: "We couldn't submit your request. Please try again in a moment." }),
       {
         status: 500,
         headers: { "Content-Type": "application/json" },

@@ -7,6 +7,8 @@
   --ink: #111111;
   --muted: #6b7280;
   --bg: #f7f7f7;
+  --font-display: "Space Grotesk", "Manrope", "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: "Manrope", "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 * {
@@ -19,7 +21,7 @@ html {
 }
 
 body {
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   margin: 0;
   background: var(--bg);
   color: var(--ink);

@@ -46,12 +46,15 @@ export function CaseCarousel({ cases }: CaseCarouselProps) {
       <div className="mx-auto flex max-w-6xl flex-col gap-12 px-4 lg:px-6">
         <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-brand">[Copy_Breve_126]</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-brand">Customer stories</p>
             <h2 id="cases-heading" className="mt-3 max-w-3xl font-display text-[clamp(2.5rem,4vw,3.25rem)] leading-[1.15] text-ink">
-              [Copy_Breve_127]
+              Collaborations transforming hectares into high-performing ecosystems.
             </h2>
           </div>
-          <p className="max-w-xl text-base leading-relaxed text-muted">[Copy_Breve_128]</p>
+          <p className="max-w-xl text-base leading-relaxed text-muted">
+            Explore the deployments where Rurivo aligned automation, analytics, and regenerative practices to deliver
+            measurable returns for growers and investors alike.
+          </p>
         </div>
         <div className="grid gap-10 lg:grid-cols-[2fr_1fr]">
           <div
@@ -88,7 +91,7 @@ export function CaseCarousel({ cases }: CaseCarouselProps) {
                             className="object-contain"
                           />
                         </span>
-                        <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">[Copy_Breve_129]</p>
+                        <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">In partnership with Rurivo</p>
                       </div>
                       <h3 className="font-display text-[clamp(2rem,3vw,2.75rem)] leading-[1.2] text-white">
                         {activeCase?.title}
@@ -98,14 +101,14 @@ export function CaseCarousel({ cases }: CaseCarouselProps) {
                         type="button"
                         className="inline-flex w-fit items-center gap-2 rounded-full bg-brand px-5 py-2 text-sm font-semibold text-white transition hover:bg-accent"
                       >
-                        [Texto_Boton_12]
+                        Read full story
                         <span aria-hidden>→</span>
                       </button>
                     </div>
                   </>
                 ) : (
                   <div className="flex h-full min-h-[24rem] items-center justify-center text-sm text-white/70">
-                    [Copy_Breve_130]
+                    Loading case studies…
                   </div>
                 )}
               </motion.div>
@@ -113,7 +116,7 @@ export function CaseCarousel({ cases }: CaseCarouselProps) {
           </div>
           <div className="flex flex-col gap-4">
             <div className="flex items-center justify-between">
-              <p className="text-sm font-semibold text-muted">[Copy_Breve_131]</p>
+              <p className="text-sm font-semibold text-muted">Featured partners</p>
               <span className="text-sm font-semibold text-brand">
                 {String(activeIndex + 1).padStart(2, "0")}/{String(cases.length).padStart(2, "0")}
               </span>
@@ -139,12 +142,12 @@ export function CaseCarousel({ cases }: CaseCarouselProps) {
                       className="object-contain"
                     />
                   </span>
-                  <span className="text-xs font-semibold uppercase tracking-[0.3em]">[Copy_Breve_132]</span>
+                  <span className="text-xs font-semibold uppercase tracking-[0.3em]">Case</span>
                 </button>
               ))}
             </div>
             <div className="rounded-3xl border border-slate-200/70 bg-bg p-6 text-sm leading-relaxed text-muted">
-              [Copy_Breve_133]
+              Slide across partners to reveal metrics, testimonials, and governance notes curated by the Rurivo agronomy desk.
             </div>
           </div>
         </div>

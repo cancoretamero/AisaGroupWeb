@@ -2,6 +2,8 @@
 
 Proyecto creado con Next.js 15, React, TypeScript y TailwindCSS siguiendo los lineamientos solicitados.
 
+La landing reproduce el wireframe editorial/premium con la marca ficticia **Rurivo**, incorporando hero inmersivo, métricas, soluciones modulares, carrusel de casos y blog con scroll infinito.
+
 ## Requisitos previos
 
 - Node.js 20+
@@ -44,22 +46,18 @@ Pasos recomendados:
 - `src/app/api/lead/route.ts`: endpoint simulado del formulario de captación.
 - `public/img` y `public/svg`: placeholders de imágenes y logos listos para sustituir.
 
-## Reemplazar placeholders
-
-Todos los textos se entregan como llaves (`[H1_Principal]`, `[Copy_Breve_X]`, `[Texto_Boton_X]`, etc.) para que puedas sustituirlos rápidamente. Cambia los valores directamente en los componentes o en los archivos de datos según corresponda. Las imágenes se resuelven desde `public/img/placeholder_*.svg` y los logos desde `public/svg/logo_placeholder_*.svg`.
-
 ## Scroll infinito y accesibilidad
 
 - El componente `InfiniteScrollController` observa el 85% del viewport y llama al endpoint `/api/placeholder?page=N` para anexar más casos, posts y productos.
-- Si la carga automática falla, aparece un botón `[Texto_Boton_18]` para solicitar más contenido manualmente.
+- Si la carga automática falla, aparece un botón de reintento y un mensaje final cuando ya no quedan lotes disponibles.
 - Las animaciones respetan `prefers-reduced-motion`, los componentes tienen estados de focus visibles y todos los elementos relevantes poseen atributos `aria-*` y textos alternativos.
 
-## Sustituciones recomendadas
+## Personalización rápida
 
-1. Reemplaza las llaves de texto por el copy final dentro de cada componente o archivo de datos.
-2. Cambia las imágenes en `public/img` manteniendo los mismos nombres o ajustando las rutas en el código.
-3. Sustituye los SVG de `public/svg` por los logos definitivos.
-4. Actualiza los metadatos en `src/app/layout.tsx` y los esquemas JSON-LD según tu proyecto.
+1. Sustituye las imágenes SVG de `public/img` y `public/svg` por tus recursos definitivos manteniendo los nombres o actualizando las rutas.
+2. Ajusta textos y cifras en `src/data/base-content.ts` y `src/data/placeholder-pages.json` para reflejar tus casos reales.
+3. Actualiza metadatos y enlaces externos en `src/app/layout.tsx`, `src/app/page.tsx` y en los componentes de navegación/footer.
+4. Conecta el formulario de `src/app/api/lead/route.ts` con tu backend o proveedor preferido.
 
 ## Notas de rendimiento y SEO
 

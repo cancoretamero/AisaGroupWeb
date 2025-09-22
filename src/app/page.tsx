@@ -17,12 +17,13 @@ export default function HomePage() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "[Copy_Breve_94]",
-    url: "https://www.placeholder-agritech.com",
-    logo: "https://www.placeholder-agritech.com/svg/logo_placeholder_main.svg",
+    name: "Rurivo",
+    url: "https://www.rurivo.com",
+    logo: "https://www.rurivo.com/svg/logo_placeholder_main.svg",
     sameAs: [
-      "https://www.placeholder-social-1.com",
-      "https://www.placeholder-social-2.com",
+      "https://www.linkedin.com/company/rurivo",
+      "https://www.youtube.com/@rurivo",
+      "https://www.instagram.com/rurivo",
     ],
   };
 
@@ -31,10 +32,10 @@ export default function HomePage() {
     "@type": "Product",
     name: product.title,
     description: product.description,
-    image: `https://www.placeholder-agritech.com/${product.image}`,
+    image: `https://www.rurivo.com/${product.image}`,
     brand: {
       "@type": "Brand",
-      name: "[Copy_Breve_94]",
+      name: "Rurivo",
     },
   }));
 
@@ -42,18 +43,18 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: post.title,
-    image: `https://www.placeholder-agritech.com/${post.image}`,
+    image: `https://www.rurivo.com/${post.image}`,
     datePublished: "2024-01-01",
     author: {
       "@type": "Organization",
-      name: "[Copy_Breve_94]",
+      name: "Rurivo",
     },
     publisher: {
       "@type": "Organization",
-      name: "[Copy_Breve_94]",
+      name: "Rurivo",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.placeholder-agritech.com/svg/logo_placeholder_main.svg",
+        url: "https://www.rurivo.com/svg/logo_placeholder_main.svg",
       },
     },
     description: post.excerpt,

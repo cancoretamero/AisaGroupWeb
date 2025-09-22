@@ -51,20 +51,20 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
           >
             <div className="flex items-center justify-between">
               <span className="text-sm font-semibold uppercase tracking-[0.35em] text-muted">
-                [Copy_Breve_91]
+                Rurivo menu
               </span>
               <button
                 type="button"
                 onClick={onClose}
                 className="rounded-full border border-brand px-3 py-1 text-sm font-semibold text-brand transition hover:bg-brand hover:text-white"
               >
-                [Texto_Boton_6]
+                Close
               </button>
             </div>
             <NavMenu orientation="vertical" className="mt-8 gap-4 text-ink" />
             <div className="mt-10 space-y-3 text-sm text-muted">
-              <p>[Copy_Breve_92]</p>
-              <p>[Copy_Breve_93]</p>
+              <p>Premium agritech designed for visionary growers who lead with data and stewardship.</p>
+              <p>Consult with us at <a className="font-semibold text-brand" href="mailto:hello@rurivo.com">hello@rurivo.com</a>.</p>
             </div>
           </motion.aside>
         </motion.div>

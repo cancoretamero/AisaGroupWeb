@@ -27,13 +27,13 @@ export function BlogGrid({ posts, loading = false, skeletonCount = 3 }: BlogGrid
       <div className="mx-auto max-w-6xl px-4 lg:px-6">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-brand">[Copy_Breve_134]</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-brand">Latest perspectives</p>
             <h2 id="blog-heading" className="mt-3 max-w-3xl font-display text-[clamp(2.5rem,4vw,3.25rem)] leading-[1.2] text-ink">
-              [Copy_Breve_135]
+              Insights from the Rurivo field desk.
             </h2>
           </div>
           <Link href="#" className="inline-flex items-center gap-2 text-sm font-semibold text-brand transition hover:text-ink">
-            [Texto_Boton_13]
+            Browse all posts
             <span aria-hidden>↗</span>
           </Link>
         </div>
@@ -67,7 +67,7 @@ export function BlogGrid({ posts, loading = false, skeletonCount = 3 }: BlogGrid
                   href="#"
                   className="mt-auto inline-flex w-fit items-center gap-2 rounded-full border border-brand px-4 py-2 text-sm font-semibold text-brand transition hover:bg-brand hover:text-white"
                 >
-                  [Texto_Boton_14]
+                  Read article
                   <span aria-hidden>→</span>
                 </Link>
               </div>

@@ -14,9 +14,9 @@ export function EditorialBlock() {
           transition={{ duration: 0.24, ease: [0.22, 1, 0.36, 1] }}
           className="space-y-8"
         >
-          <p className="text-sm font-semibold uppercase tracking-[0.35em] text-brand">[Copy_Breve_125]</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.35em] text-brand">Editorial insight</p>
           <h2 id="editorial-heading" className="font-display text-[clamp(2.75rem,4.5vw,3.75rem)] leading-[1.1] text-ink">
-            [Titular_Editorial]
+            Despite advances in agri-tech, traditional labor-intensive farming highlights ongoing inefficiencies.
           </h2>
           <div className="flex flex-wrap gap-3">
             {editorialTags.map((tag) => (
@@ -36,13 +36,19 @@ export function EditorialBlock() {
           transition={{ delay: 0.12, duration: 0.24, ease: [0.22, 1, 0.36, 1] }}
           className="space-y-6 text-base leading-relaxed text-muted"
         >
-          <p>[Copy_Largo_1]</p>
-          <p>[Copy_Largo_2]</p>
+          <p>
+            Our research collective analyses how regenerative mandates intersect with AI, robotics, and capital flows to reshape
+            production systems while protecting communities and biodiversity.
+          </p>
+          <p>
+            Each edition distils conversations with growers, scientists, and policymakers into frameworks you can activate in
+            your own operations tomorrow.
+          </p>
           <a
             href="#"
             className="inline-flex w-fit items-center gap-2 text-sm font-semibold text-brand transition hover:text-ink"
           >
-            [Texto_Boton_11]
+            Explore editorial
             <span aria-hidden>→</span>
           </a>
         </motion.div>

@@ -16,8 +16,8 @@ const config: Config = {
         bg: "#F7F7F7",
       },
       fontFamily: {
-        display: ['"Brand Display"', '"Inter"', "system-ui", "sans-serif"],
-        sans: ['"Inter"', "system-ui", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
+        display: ["var(--font-display)", "var(--font-sans)", "sans-serif"],
+        sans: ["var(--font-sans)", "sans-serif"],
       },
       boxShadow: {
         soft: "0 24px 48px -24px rgba(17, 17, 17, 0.25)",

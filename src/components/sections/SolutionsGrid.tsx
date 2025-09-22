@@ -27,15 +27,17 @@ export function SolutionsGrid({ baseSolutions, extendedSolutions }: SolutionsGri
       <div className="mx-auto max-w-6xl px-4 lg:px-6">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-brand">[Copy_Breve_121]</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-brand">Solution suites</p>
             <h2
               id="solutions-heading"
               className="mt-3 max-w-3xl font-display text-[clamp(2.5rem,4vw,3.25rem)] leading-[1.2] text-ink"
             >
-              [Copy_Breve_122]
+              Next-gen modules for optimal crop growth.
             </h2>
           </div>
-          <p className="max-w-xl text-base leading-relaxed text-muted">[Copy_Breve_123]</p>
+          <p className="max-w-xl text-base leading-relaxed text-muted">
+            Compose AI-enriched playbooks, automation layers, and marketplace integrations to orchestrate your entire estate.
+          </p>
         </div>
         <div className="mt-12 grid gap-8 sm:grid-cols-2 xl:grid-cols-4">
           {allSolutions.map((solution, index) => (
@@ -58,7 +60,7 @@ export function SolutionsGrid({ baseSolutions, extendedSolutions }: SolutionsGri
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-transparent" aria-hidden />
                 <span className="absolute left-4 top-4 rounded-full bg-white/80 px-4 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-brand">
-                  [Copy_Breve_124]
+                  Rurivo suite
                 </span>
               </div>
               <div className="flex flex-col gap-4 p-6">
@@ -68,7 +70,7 @@ export function SolutionsGrid({ baseSolutions, extendedSolutions }: SolutionsGri
                   type="button"
                   className="inline-flex w-fit items-center gap-2 rounded-full border border-brand px-4 py-2 text-sm font-semibold text-brand transition hover:bg-brand hover:text-white"
                 >
-                  [Texto_Boton_10]
+                  View blueprint
                   <span aria-hidden>↗</span>
                 </button>
               </div>

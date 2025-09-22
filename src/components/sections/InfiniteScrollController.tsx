@@ -62,7 +62,7 @@ export function InfiniteScrollController({
       {isLoading ? (
         <div className="flex items-center gap-3" aria-live="polite">
           <span className="h-4 w-4 animate-spin rounded-full border-2 border-brand/30 border-t-brand" aria-hidden />
-          <span>[Copy_Breve_151]</span>
+          <span>Loading additional highlights…</span>
         </div>
       ) : null}
       {hasError ? (
@@ -71,10 +71,10 @@ export function InfiniteScrollController({
           onClick={handleClick}
           className="inline-flex items-center gap-2 rounded-full border border-brand px-4 py-2 text-sm font-semibold text-brand transition hover:bg-brand hover:text-white"
         >
-          [Texto_Boton_18]
+          Retry loading
         </button>
       ) : null}
-      {!hasMore && !isLoading ? <p className="text-xs text-muted">[Copy_Breve_152]</p> : null}
+      {!hasMore && !isLoading ? <p className="text-xs text-muted">You’ve reached the end of our highlights.</p> : null}
     </div>
   );
 }

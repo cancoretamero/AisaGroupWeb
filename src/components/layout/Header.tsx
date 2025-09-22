@@ -33,10 +33,10 @@ export function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 lg:px-6">
         <Link href="#home" className="flex items-center gap-3" aria-label="Ir al inicio">
           <span className="relative h-10 w-10 overflow-hidden rounded-full bg-brand/10 p-2">
-            <Image src="/svg/logo_placeholder_main.svg" alt="[Alt_Imagen_2]" fill className="object-contain" />
+            <Image src="/svg/logo_placeholder_main.svg" alt="Logotipo de Rurivo" fill className="object-contain" />
           </span>
           <span className="hidden text-lg font-semibold tracking-[0.28em] text-brand uppercase md:block">
-            [Copy_Breve_94]
+            Rurivo
           </span>
         </Link>
         <div className="hidden items-center gap-10 lg:flex">
@@ -46,13 +46,13 @@ export function Header() {
               href="#lead"
               className="rounded-full border border-brand px-4 py-2 text-sm font-semibold text-brand transition hover:bg-brand hover:text-white focus-visible:bg-brand focus-visible:text-white"
             >
-              [CTA_Secundario]
+              Book a demo
             </Link>
             <Link
               href="#lead"
               className="rounded-full bg-brand px-5 py-2 text-sm font-semibold text-white shadow-subtle transition hover:bg-ink focus-visible:bg-ink"
             >
-              [CTA_Principal]
+              Get started
             </Link>
           </div>
         </div>
@@ -61,7 +61,7 @@ export function Header() {
             href="#lead"
             className="hidden rounded-full bg-brand px-4 py-2 text-sm font-semibold text-white shadow-subtle transition hover:bg-ink focus-visible:bg-ink sm:block"
           >
-            [CTA_Principal]
+            Get started
           </Link>
           <button
             type="button"

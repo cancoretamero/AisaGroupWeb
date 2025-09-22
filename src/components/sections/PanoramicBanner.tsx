@@ -66,7 +66,7 @@ export function PanoramicBanner() {
             transition={{ duration: prefersReducedMotion ? 0 : 0.24, ease: [0.22, 1, 0.36, 1] }}
             className="max-w-3xl font-display text-[clamp(2.5rem,4vw,3.75rem)] leading-[1.1]"
           >
-            [Claim_Visual]
+            Next-gen solutions for optimal crop growth.
           </motion.h2>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -79,18 +79,18 @@ export function PanoramicBanner() {
               href="#lead"
               className="rounded-full bg-brand px-6 py-3 text-sm font-semibold text-white shadow-card transition hover:bg-accent"
             >
-              [Reserva_Demo]
+              Book a demo
             </Link>
             <Link
-              href="#products"
+              href="#case-carousel"
               className="rounded-full border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:border-white"
             >
-              [Texto_Boton_8]
+              Discover stories
             </Link>
           </motion.div>
         </div>
         <div className="absolute inset-0" aria-hidden>
-          <Image src="/img/placeholder_33.svg" alt="[Alt_Imagen_4]" fill className="opacity-0" sizes="100vw" />
+          <Image src="/img/placeholder_33.svg" alt="Panoramic photo of lush green hills at sunrise" fill className="opacity-0" sizes="100vw" />
         </div>
       </div>
     </section>

@@ -9,12 +9,15 @@ export function BenefitsSection() {
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 lg:px-6">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-brand">[Copy_Breve_153]</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-brand">Why Rurivo</p>
             <h2 id="benefits-heading" className="mt-3 max-w-3xl font-display text-[clamp(2.5rem,4vw,3.25rem)] leading-[1.15] text-ink">
-              [H2_Beneficios]
+              Built for premium agritech operations.
             </h2>
           </div>
-          <p className="max-w-xl text-base leading-relaxed text-muted">[Copy_Breve_154]</p>
+          <p className="max-w-xl text-base leading-relaxed text-muted">
+            From climate-aware automation to carbon reporting, Rurivo equips leaders to reimagine agriculture as a sustainable,
+            data-enriched enterprise.
+          </p>
         </div>
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
           {benefits.map((benefit, index) => (
