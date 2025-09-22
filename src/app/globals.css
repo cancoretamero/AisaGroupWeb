@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --brand: #0e7c66;
+  --accent: #8bc34a;
+  --ink: #111111;
+  --muted: #6b7280;
+  --bg: #f7f7f7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+main {
+  background: var(--bg);
+}
+
+a {
+  color: inherit;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+:focus-visible {
+  border-radius: 0.5rem;
+}
+
+::selection {
+  background: rgba(14, 124, 102, 0.2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  background: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  box-shadow: 0 10px 20px -15px rgba(17, 17, 17, 0.35);
+  transition: top 0.3s ease;
+  z-index: 50;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+.reduced-motion-hidden {
+  display: none;
+}
