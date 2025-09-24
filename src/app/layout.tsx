@@ -2,33 +2,38 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.placeholder-agritech.com"),
-  title: "[Meta_Title]",
-  description: "[Meta_Description]",
+  metadataBase: new URL("https://shutterspeed-studio.com"),
+  title: "Shutterspeed Studio",
+  description:
+    "Photography portfolio that captures the poetry of fleeting moments through landscapes, portraits and wildlife.",
   openGraph: {
-    title: "[Meta_Title]",
-    description: "[Meta_Description]",
-    url: "https://www.placeholder-agritech.com",
-    siteName: "[Meta_Title]",
-    locale: "es_ES",
+    title: "Shutterspeed Studio",
+    description:
+      "Photography portfolio that captures the poetry of fleeting moments through landscapes, portraits and wildlife.",
+    url: "https://shutterspeed-studio.com",
+    siteName: "Shutterspeed Studio",
+    locale: "en_US",
     type: "website",
     images: [
       {
-        url: "/img/placeholder_og.svg",
+        url: "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=80",
         width: 1200,
         height: 630,
-        alt: "[Alt_Imagen_1]",
+        alt: "Mountain landscape during golden hour",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "[Meta_Title]",
-    description: "[Meta_Description]",
-    images: ["/img/placeholder_og.svg"],
+    title: "Shutterspeed Studio",
+    description:
+      "Photography portfolio that captures the poetry of fleeting moments through landscapes, portraits and wildlife.",
+    images: [
+      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=80",
+    ],
   },
   alternates: {
-    canonical: "https://www.placeholder-agritech.com",
+    canonical: "https://shutterspeed-studio.com",
   },
 };
 
@@ -38,10 +43,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" suppressHydrationWarning>
-      <body className="bg-bg text-ink antialiased">
+    <html lang="en" suppressHydrationWarning>
+      <body>
         <a className="skip-link" href="#main">
-          Saltar al contenido principal
+          Skip to main content
         </a>
         {children}
       </body>
