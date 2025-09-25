@@ -19,7 +19,9 @@
         <nav class="main-nav" aria-label="Principal">
           <a href="#colecciones">Colecciones</a>
           <a href="#novedades">Novedades</a>
-          <a href="#nosotros">Nosotros</a>
+          <a href="#lookbook">Lookbook</a>
+          <a href="#testimonios">Testimonios</a>
+          <a href="#journal">Journal</a>
           <a href="#contacto">Contacto</a>
         </nav>
         <div class="header-actions">
@@ -45,19 +47,70 @@
             </p>
             <div class="hero-actions">
               <a class="btn btn-primary" href="#colecciones">Ver colección</a>
-              <a class="btn btn-outline" href="#video">Ver video</a>
+              <a class="btn btn-outline" href="#lookbook">Ver video</a>
             </div>
-            <div class="hero-tags">
-              <article class="hero-card" data-animate>
-                <img src="https://picsum.photos/seed/lounge/360/260" alt="Sillón moderno" />
-                <div class="card-content">
-                  <div>
-                    <h3>Meghan Rona Stool</h3>
-                    <p>Disponible en cuatro acabados con tejidos fáciles de limpiar.</p>
-                  </div>
-                  <button class="icon-button" aria-label="Guardar producto">➔</button>
+            <ul class="hero-benefits" data-animate>
+              <li>
+                <span class="benefit-icon">🌿</span>
+                <div>
+                  <h4>Materiales certificados</h4>
+                  <p>Maderas FSC y textiles reciclados con tacto impecable.</p>
                 </div>
-              </article>
+              </li>
+              <li>
+                <span class="benefit-icon">🛠️</span>
+                <div>
+                  <h4>Hecho a medida</h4>
+                  <p>Configura medidas, módulos y acabados sin esfuerzo.</p>
+                </div>
+              </li>
+              <li>
+                <span class="benefit-icon">🚚</span>
+                <div>
+                  <h4>Instalación premium</h4>
+                  <p>Equipo experto que deja cada detalle listo para habitar.</p>
+                </div>
+              </li>
+            </ul>
+            <div class="hero-tags" data-slider data-autoplay="6000" data-animate>
+              <button class="slider-control prev" type="button" aria-label="Producto anterior" data-slider-prev>
+                ←
+              </button>
+              <div class="slider-track" data-slider-track>
+                <article class="hero-card">
+                  <img src="https://picsum.photos/seed/lounge/360/260" alt="Sillón moderno" />
+                  <div class="card-content">
+                    <div>
+                      <h3>Meghan Rona Stool</h3>
+                      <p>Disponible en cuatro acabados con tejidos fáciles de limpiar.</p>
+                    </div>
+                    <button class="icon-button" aria-label="Guardar producto">➔</button>
+                  </div>
+                </article>
+                <article class="hero-card">
+                  <img src="https://picsum.photos/seed/linen/360/260" alt="Banco tapizado" />
+                  <div class="card-content">
+                    <div>
+                      <h3>Linen Arc Bench</h3>
+                      <p>Curvas suaves con cojinería rellena de pluma vegana.</p>
+                    </div>
+                    <button class="icon-button" aria-label="Guardar producto">➔</button>
+                  </div>
+                </article>
+                <article class="hero-card">
+                  <img src="https://picsum.photos/seed/terra/360/260" alt="Mesa baja" />
+                  <div class="card-content">
+                    <div>
+                      <h3>Terra Low Table</h3>
+                      <p>Piedra volcánica y madera tostada en equilibrio perfecto.</p>
+                    </div>
+                    <button class="icon-button" aria-label="Guardar producto">➔</button>
+                  </div>
+                </article>
+              </div>
+              <button class="slider-control next" type="button" aria-label="Producto siguiente" data-slider-next>
+                →
+              </button>
             </div>
           </div>
           <div class="hero-right" data-animate>
@@ -84,6 +137,43 @@
                 </div>
               </article>
             </div>
+            <div class="floating-note" data-animate>
+              <span class="badge">Studio Insight</span>
+              <p>
+                Cada pieza se prueba durante 120 días en hogares reales antes de
+                salir al mercado.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div class="hero-marquee" aria-hidden="true">
+          <div class="marquee-track">
+            <span>Diseño consciente</span>
+            <span>Acabados artesanales</span>
+            <span>Producción local</span>
+            <span>Garantía extendida</span>
+            <span>Consultoría a medida</span>
+            <span>Diseño consciente</span>
+            <span>Acabados artesanales</span>
+            <span>Producción local</span>
+            <span>Garantía extendida</span>
+            <span>Consultoría a medida</span>
+          </div>
+        </div>
+
+        <section class="partnerships" aria-label="Colaboraciones de diseño">
+          <p data-animate>
+            Colaboramos con arquitectos visionarios y artesanos locales para crear
+            espacios vivos que reflejan tu identidad.
+          </p>
+          <div class="partners" data-animate>
+            <span>Casa Áurea</span>
+            <span>Möbel Lab</span>
+            <span>Estudio Val</span>
+            <span>Atelier Norte</span>
+            <span>Linea Nido</span>
+            <span>Form &amp; Light</span>
           </div>
         </section>
 
@@ -150,28 +240,98 @@
             </p>
             <a class="btn btn-outline" href="#colecciones">Explorar todo</a>
           </div>
-          <div class="curated-grid">
-            <article class="collection-card" data-animate>
-              <img src="https://picsum.photos/seed/suite/420/320" alt="Colección Living" />
-              <div class="collection-content">
-                <h3>Living Serenity</h3>
-                <p>Sillón, otomana y lámpara de piso para tu refugio perfecto.</p>
-              </div>
-            </article>
-            <article class="collection-card" data-animate>
-              <img src="https://picsum.photos/seed/sunset/420/320" alt="Colección terraza" />
-              <div class="collection-content">
-                <h3>Sunset Terrace</h3>
-                <p>Textiles resistentes al clima con fibras recicladas.</p>
-              </div>
-            </article>
-            <article class="collection-card" data-animate>
-              <img src="https://picsum.photos/seed/studio/420/320" alt="Colección estudio" />
-              <div class="collection-content">
-                <h3>Nordic Studio</h3>
-                <p>Espacios de trabajo flexibles con mesas ajustables.</p>
-              </div>
-            </article>
+          <div class="curated-slider" data-slider data-autoplay="7000" data-animate>
+            <button class="slider-control prev" type="button" aria-label="Colección anterior" data-slider-prev>
+              ←
+            </button>
+            <div class="slider-track" data-slider-track>
+              <article class="collection-card">
+                <img src="https://picsum.photos/seed/suite/420/320" alt="Colección Living" />
+                <div class="collection-content">
+                  <h3>Living Serenity</h3>
+                  <p>Sillón, otomana y lámpara de piso para tu refugio perfecto.</p>
+                </div>
+              </article>
+              <article class="collection-card">
+                <img src="https://picsum.photos/seed/sunset/420/320" alt="Colección terraza" />
+                <div class="collection-content">
+                  <h3>Sunset Terrace</h3>
+                  <p>Textiles resistentes al clima con fibras recicladas.</p>
+                </div>
+              </article>
+              <article class="collection-card">
+                <img src="https://picsum.photos/seed/studio/420/320" alt="Colección estudio" />
+                <div class="collection-content">
+                  <h3>Nordic Studio</h3>
+                  <p>Espacios de trabajo flexibles con mesas ajustables.</p>
+                </div>
+              </article>
+              <article class="collection-card">
+                <img src="https://picsum.photos/seed/courtyard/420/320" alt="Colección patio" />
+                <div class="collection-content">
+                  <h3>Courtyard Oasis</h3>
+                  <p>Combinaciones resistentes al exterior con fibras naturales.</p>
+                </div>
+              </article>
+              <article class="collection-card">
+                <img src="https://picsum.photos/seed/atelier/420/320" alt="Colección atelier" />
+                <div class="collection-content">
+                  <h3>Atelier Lines</h3>
+                  <p>Mix de mobiliario escultórico y piezas de autor.</p>
+                </div>
+              </article>
+            </div>
+            <button class="slider-control next" type="button" aria-label="Colección siguiente" data-slider-next>
+              →
+            </button>
+          </div>
+        </section>
+
+        <section class="signature-gallery" aria-label="Galería de espacios insignia">
+          <header class="signature-header" data-animate>
+            <span class="eyebrow">Signature Spaces</span>
+            <h2>Historias visuales que abrazan la sofisticación</h2>
+            <p>
+              Cada proyecto está acompañado de stylists que armonizan iluminación,
+              texturas y aromas para convertir el mobiliario en experiencias
+              memorables.
+            </p>
+          </header>
+          <div class="signature-track" data-slider data-autoplay="5000" data-animate>
+            <button class="slider-control prev" type="button" aria-label="Espacio anterior" data-slider-prev>
+              ←
+            </button>
+            <div class="slider-track" data-slider-track>
+              <figure class="signature-card">
+                <img src="https://picsum.photos/seed/gallery1/680/420" alt="Sala con luz natural" />
+                <figcaption>
+                  Loft en Copenhague iluminado con muros de vidrio y piezas
+                  modulares.
+                </figcaption>
+              </figure>
+              <figure class="signature-card">
+                <img src="https://picsum.photos/seed/gallery2/680/420" alt="Dormitorio" />
+                <figcaption>
+                  Suite urbana con cabecero acolchado y lámparas esculpidas a mano.
+                </figcaption>
+              </figure>
+              <figure class="signature-card">
+                <img src="https://picsum.photos/seed/gallery3/680/420" alt="Comedor minimalista" />
+                <figcaption>
+                  Comedor de líneas japonesas con mesas expandibles de roble.
+                </figcaption>
+              </figure>
+              <figure class="signature-card">
+                <img src="https://picsum.photos/seed/gallery4/680/420" alt="Terraza" />
+                <figcaption>
+                  Terraza verde con mobiliario resistente a la intemperie y fibras
+                  PET recicladas.
+                </figcaption>
+              </figure>
+            </div>
+            <button class="slider-control next" type="button" aria-label="Espacio siguiente" data-slider-next>
+              →
+            </button>
           </div>
         </section>
 
@@ -210,6 +370,162 @@
             <a class="btn btn-primary" href="#contacto">Agenda una cita</a>
           </div>
         </section>
+
+        <section class="lookbook" id="lookbook" aria-labelledby="lookbook-title">
+          <video class="lookbook-video" autoplay muted loop playsinline>
+            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4" />
+            Tu navegador no soporta video HTML5.
+          </video>
+          <div class="lookbook-overlay" data-animate>
+            <span class="eyebrow">Lookbook inmersivo</span>
+            <h2 id="lookbook-title">Descubre atmósferas sensoriales en movimiento</h2>
+            <p>
+              Navega por ambientes interactivos y guarda tus combinaciones favoritas
+              para agendarlas con nuestro equipo creativo.
+            </p>
+            <div class="lookbook-actions">
+              <a class="btn btn-primary" href="#journal">Ver backstage</a>
+              <a class="btn btn-outline" href="#contacto">Solicitar demo virtual</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="testimonials" id="testimonios" aria-labelledby="testimonials-title">
+          <div class="testimonials-header" data-animate>
+            <span class="eyebrow">Voces reales</span>
+            <h2 id="testimonials-title">Clientes que viven el confort Furnice</h2>
+            <p>
+              Experiencias compartidas por creativos, familias y hoteles boutique
+              que confiaron en nosotros para crear escenarios memorables.
+            </p>
+          </div>
+          <div class="testimonial-slider" data-slider data-autoplay="8000" data-animate>
+            <button class="slider-control prev" type="button" aria-label="Testimonio anterior" data-slider-prev>
+              ←
+            </button>
+            <div class="slider-track" data-slider-track>
+              <article class="testimonial-card">
+                <header>
+                  <img src="https://i.pravatar.cc/80?img=12" alt="Retrato de cliente" />
+                  <div>
+                    <h3>Marina Estévez</h3>
+                    <span>Directora creativa · Casa Áurea</span>
+                  </div>
+                </header>
+                <p>
+                  “Lograron que cada rincón del showroom respire calma y sofisticación.
+                  La asesoría cromática fue un antes y un después para la marca.”
+                </p>
+              </article>
+              <article class="testimonial-card">
+                <header>
+                  <img src="https://i.pravatar.cc/80?img=32" alt="Retrato de cliente" />
+                  <div>
+                    <h3>Iván Córdoba</h3>
+                    <span>Fundador · Hotel Nativo</span>
+                  </div>
+                </header>
+                <p>
+                  “El equipo de Furnice cuidó cada detalle. Las piezas a medida llegaron
+                  listas para instalar y transformaron nuestros espacios comunes.”
+                </p>
+              </article>
+              <article class="testimonial-card">
+                <header>
+                  <img src="https://i.pravatar.cc/80?img=45" alt="Retrato de cliente" />
+                  <div>
+                    <h3>Renata Prado</h3>
+                    <span>Arquitecta residencial</span>
+                  </div>
+                </header>
+                <p>
+                  “Mis clientes quedan fascinados con la calidad y los acabados.
+                  La biblioteca de materiales digitales facilita cada proceso.”
+                </p>
+              </article>
+              <article class="testimonial-card">
+                <header>
+                  <img src="https://i.pravatar.cc/80?img=52" alt="Retrato de cliente" />
+                  <div>
+                    <h3>Tomás Villaseñor</h3>
+                    <span>Chef · Atelier Norte</span>
+                  </div>
+                </header>
+                <p>
+                  “El diseño de nuestro comedor abierto invita a quedarse horas. El
+                  mobiliario es resistente y mantiene su belleza con el uso diario.”
+                </p>
+              </article>
+            </div>
+            <button class="slider-control next" type="button" aria-label="Testimonio siguiente" data-slider-next>
+              →
+            </button>
+          </div>
+        </section>
+
+        <section class="journal" id="journal" aria-labelledby="journal-title">
+          <header class="journal-header" data-animate>
+            <span class="eyebrow">Journal Furnice</span>
+            <h2 id="journal-title">Inspiración, procesos y tendencias que nos mueven</h2>
+            <p>
+              Explora artículos profundos, playlists para ambientes y entrevistas con
+              artesanos que dan vida a nuestras colecciones.
+            </p>
+          </header>
+          <div class="journal-grid">
+            <article class="journal-card" data-animate>
+              <img src="https://picsum.photos/seed/journal1/420/320" alt="Moodboard" />
+              <div class="journal-content">
+                <span class="journal-tag">Tendencias</span>
+                <h3>Paletas botánicas para espacios restauradores</h3>
+                <p>
+                  Descubre combinaciones tonales que aportan frescura y armonía a tu
+                  hogar sin perder sofisticación.
+                </p>
+                <a href="#" class="journal-link">Leer artículo</a>
+              </div>
+            </article>
+            <article class="journal-card" data-animate>
+              <img src="https://picsum.photos/seed/journal2/420/320" alt="Detalle artesanal" />
+              <div class="journal-content">
+                <span class="journal-tag">Backstage</span>
+                <h3>Cómo trabajamos con fibras naturales regenerativas</h3>
+                <p>
+                  Conoce el proceso colaborativo con talleres locales y los
+                  estándares que seguimos para garantizar trazabilidad.
+                </p>
+                <a href="#" class="journal-link">Leer artículo</a>
+              </div>
+            </article>
+            <article class="journal-card" data-animate>
+              <img src="https://picsum.photos/seed/journal3/420/320" alt="Esquema 3D" />
+              <div class="journal-content">
+                <span class="journal-tag">Guías</span>
+                <h3>Guía para planificar un living modular evolutivo</h3>
+                <p>
+                  Tips esenciales para adaptar tu sala a nuevas necesidades sin
+                  sacrificar estética ni confort.
+                </p>
+                <a href="#" class="journal-link">Leer artículo</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="cta-banner" aria-labelledby="cta-title">
+          <div class="cta-content" data-animate>
+            <span class="eyebrow">Diseña con nosotros</span>
+            <h2 id="cta-title">Agenda una consultoría inmersiva con nuestro equipo creativo</h2>
+            <p>
+              Preparamos renders interactivos, moodboards sensoriales y muestras a
+              domicilio para que tomes decisiones con total confianza.
+            </p>
+            <div class="cta-actions">
+              <a class="btn btn-primary" href="#contacto">Reservar cita</a>
+              <a class="btn btn-outline" href="#lookbook">Explorar experiencias</a>
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer class="site-footer" id="contacto">
@@ -217,22 +533,40 @@
           <div class="brand">Furnice</div>
           <p>Diseñamos piezas que cuentan historias en cada hogar.</p>
         </div>
-        <form class="footer-form" data-animate>
-          <label for="newsletter" class="form-label">Únete a nuestra newsletter</label>
-          <div class="form-control">
-            <input
-              id="newsletter"
-              type="email"
+        <div class="footer-columns">
+          <form class="footer-form" data-animate>
+            <label for="newsletter" class="form-label">Únete a nuestra newsletter</label>
+            <div class="form-control">
+              <input
+                id="newsletter"
+                type="email"
               name="email"
               placeholder="Ingresa tu correo"
               required
             />
-            <button type="submit" class="btn btn-primary">Suscribirme</button>
+              <button type="submit" class="btn btn-primary">Suscribirme</button>
+            </div>
+          </form>
+          <div class="footer-links" data-animate>
+            <h4>Visítanos</h4>
+            <p>Showroom Flagship · Av. Prado 128, CDMX</p>
+            <p>De lunes a sábado · 10:00 a 20:00 hrs</p>
           </div>
-        </form>
+          <div class="footer-links" data-animate>
+            <h4>Contacto directo</h4>
+            <a href="tel:+525512345678">+52 55 1234 5678</a>
+            <a href="mailto:hola@furnice.studio">hola@furnice.studio</a>
+            <div class="footer-social">
+              <a href="#" aria-label="Instagram">IG</a>
+              <a href="#" aria-label="Pinterest">PT</a>
+              <a href="#" aria-label="Behance">BE</a>
+            </div>
+          </div>
+        </div>
         <div class="footer-meta" data-animate>
           <span>© 2024 Furnice Studio. Todos los derechos reservados.</span>
           <a href="#">Política de privacidad</a>
+          <a href="#">Términos de servicio</a>
         </div>
       </footer>
     </div>
