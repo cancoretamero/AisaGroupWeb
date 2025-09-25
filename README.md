@@ -24,4 +24,15 @@ Este repositorio contiene el código fuente de la web animada basada en el wiref
 
 ## Despliegue
 
-Una vez que el código esté listo y subido a GitHub, Netlify lo construira y publicara automaticamente cuando se haga push a la rama `main`.
+Para facilitar la publicación en Netlify se incluyó un pequeño script de build en Node que copia los archivos estáticos a la carpeta `.next`. Netlify ejecuta el comando `npm run build` y publica directamente el contenido generado en esa carpeta.
+
+### Ejecutar el build localmente
+
+```bash
+npm install
+npm run build
+```
+
+El resultado quedará disponible en la carpeta `.next`, lista para ser servida como sitio estático.
+
+Una vez que el código esté listo y subido a GitHub, Netlify lo construirá y publicará automáticamente cuando se haga push a la rama `main`.
