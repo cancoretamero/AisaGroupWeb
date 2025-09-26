@@ -14,8 +14,10 @@
     "three": "^0.161.0"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "5.7.1",
     "@types/node": "20.12.7",
     "@types/react": "18.2.66",
+    "@types/three": "0.161.0",
     "typescript": "5.4.5"
   }
 }
