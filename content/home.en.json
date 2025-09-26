@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "display": "AISA GROUP",
+    "headline": "Family-owned group creating sustainable value",
+    "subtitle": "Placeholder copy for the English version of the homepage.",
+    "ctaPrimary": {
+      "label": "Explore divisions",
+      "href": "/en/divisions"
+    },
+    "ctaSecondary": {
+      "label": "Contact",
+      "href": "/en/contact"
+    }
+  },
+  "quienesSomos": {
+    "title": "Family roots, global reach",
+    "description": "Placeholder content for the English about section."
+  },
+  "queHacemos": {
+    "title": "What we do",
+    "cards": []
+  },
+  "impacto": {
+    "title": "Impact",
+    "items": []
+  },
+  "proyectos": {
+    "title": "Featured projects",
+    "items": []
+  },
+  "noticias": {
+    "title": "News",
+    "items": []
+  }
+}
