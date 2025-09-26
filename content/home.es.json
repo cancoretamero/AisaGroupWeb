@@ -1,0 +1,137 @@
+{
+  "hero": {
+    "display": "AISA GROUP",
+    "headline": "Un grupo familiar que crea valor sostenible",
+    "subtitle": "Operamos minería responsable, energía solar de gran escala, cadenas de alimentos y desarrollos inmobiliarios que impulsan comunidades resilientes en América.",
+    "ctaPrimary": {
+      "label": "Explorar divisiones",
+      "href": "/divisiones"
+    },
+    "ctaSecondary": {
+      "label": "Contactar",
+      "href": "/contacto"
+    }
+  },
+  "quienesSomos": {
+    "title": "Raíz familiar, alcance global",
+    "description": "Somos un holding privado canadiense con más de cuatro décadas de inversión en Argentina y Latinoamérica. Nuestra visión combina gestión familiar de largo plazo con disciplina operativa, priorizando la creación de valor sostenible en cada región donde operamos."
+  },
+  "queHacemos": {
+    "title": "Qué hacemos",
+    "cards": [
+      {
+        "title": "Minería",
+        "kpi": "120 mil oz/año",
+        "description": "Distrito Calingasta-Pachón con proyección de 17 años para DCP Gualcamayo y reposición de recursos auríferos responsables.",
+        "href": "/divisiones/mineria"
+      },
+      {
+        "title": "Energías renovables",
+        "kpi": "51 MWp en obra",
+        "description": "Parque FV Calicanto (San Luis) con entrega de 110 GWh/año para abastecer 80 mil hogares mediante generación solar.",
+        "href": "/divisiones/energia"
+      },
+      {
+        "title": "Pesca & mariscos",
+        "kpi": "+25k t procesadas",
+        "description": "Cadena integrada de captura, procesamiento y exportación de mariscos patagónicos con certificaciones internacionales.",
+        "href": "/divisiones/pesca-mariscos"
+      },
+      {
+        "title": "Carne",
+        "kpi": "6 plantas frigoríficas",
+        "description": "Producción bovina con trazabilidad completa para mercados premium en América, Asia y Oriente Medio.",
+        "href": "/divisiones/carne"
+      },
+      {
+        "title": "Productos agrícolas",
+        "kpi": "85 mil ha",
+        "description": "Rotación sustentable de granos y especialidades con riego eficiente y alianzas con productores regionales.",
+        "href": "/divisiones/agro"
+      },
+      {
+        "title": "Real estate",
+        "kpi": "+450 mil m²",
+        "description": "Desarrollos residenciales, logísticos y turísticos que integran eficiencia energética y diseño biofílico.",
+        "href": "/divisiones/real-estate"
+      }
+    ]
+  },
+  "impacto": {
+    "title": "Impacto",
+    "items": [
+      {
+        "value": "+1.6",
+        "suffix": "bn USD",
+        "label": "Inversión acumulada en Argentina"
+      },
+      {
+        "value": "110",
+        "suffix": "GWh/año",
+        "label": "Generación solar comprometida"
+      },
+      {
+        "value": "80",
+        "suffix": "mil hogares",
+        "label": "Beneficiados con energía limpia"
+      },
+      {
+        "value": "17",
+        "suffix": "años",
+        "label": "Horizonte del proyecto DCP Gualcamayo"
+      }
+    ]
+  },
+  "proyectos": {
+    "title": "Proyectos en foco",
+    "items": [
+      {
+        "title": "Parque fotovoltaico Calicanto",
+        "tag": "Energía",
+        "description": "51 MWp en construcción con tecnología bifacial y almacenamiento modular para entregar energía estable al sistema nacional.",
+        "href": "/proyectos/#calicanto"
+      },
+      {
+        "title": "Distrito Calingasta-Pachón",
+        "tag": "Minería",
+        "description": "Proyecto aurífero con plan de vida útil a 17 años, fase de factibilidad y obras tempranas en curso.",
+        "href": "/proyectos/#dcp-gualcamayo"
+      },
+      {
+        "title": "Complejo agroindustrial Santa Emilia",
+        "tag": "Alimentos",
+        "description": "Planta multipropósito para procesamiento de legumbres, harinas y aceites de exportación con trazabilidad blockchain.",
+        "href": "/proyectos/#santa-emilia"
+      },
+      {
+        "title": "Campus logístico Delta Norte",
+        "tag": "Real estate",
+        "description": "Masterplan de 65 ha en el AMBA con certificación LEED y soluciones de última milla para e-commerce.",
+        "href": "/proyectos/#delta-norte"
+      }
+    ]
+  },
+  "noticias": {
+    "title": "Noticias",
+    "items": [
+      {
+        "title": "AISA Group adjudica parque solar Calicanto en San Luis",
+        "date": "12.04.2024",
+        "excerpt": "La compañía avanza con la ingeniería de detalle y contratos EPC para entregar 51 MWp de energía limpia en 2025.",
+        "href": "/noticias/aisa-group-adjudica-calicanto/"
+      },
+      {
+        "title": "Programa agro 2030 integra riego inteligente en Cuyo",
+        "date": "22.03.2024",
+        "excerpt": "El plan agrícola del holding incorpora monitoreo satelital y modelos predictivos para optimizar 85 mil hectáreas productivas.",
+        "href": "/noticias/programa-agro-2030-riego-inteligente/"
+      },
+      {
+        "title": "Renovación de flota pesquera con propulsión híbrida",
+        "date": "07.02.2024",
+        "excerpt": "Las unidades destinadas a pesca de langostino incorporan propulsión dual para reducir emisiones y mejorar la calidad de captura.",
+        "href": "/noticias/flota-pesquera-propulsion-hibrida/"
+      }
+    ]
+  }
+}
