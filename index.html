@@ -3,240 +3,619 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Furnice · Diseño de mobiliario contemporáneo</title>
+    <title>Aisa Group | Minería, Energías Renovables, Real Estate y Alimentos</title>
+    <meta
+      name="description"
+      content="Grupo empresarial con base en Canadá y operaciones globales. Minería Gualcamayo, energías renovables Calicanto, real estate y distribución internacional de alimentos."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Aisa Group",
+        "url": "https://www.aisagroup.ca",
+        "logo": "https://www.aisagroup.ca/logo.png",
+        "sameAs": ["https://www.linkedin.com/company/aisagroupca"],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "email": "contact@aisagroup.ca",
+            "telephone": "+13122858599",
+            "contactType": "customer service"
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div class="page-wrapper">
-      <header class="site-header">
-        <div class="brand">Furnice</div>
-        <nav class="main-nav" aria-label="Principal">
-          <a href="#colecciones">Colecciones</a>
-          <a href="#novedades">Novedades</a>
-          <a href="#nosotros">Nosotros</a>
+      <header class="site-header" id="inicio">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">AG</span>
+          <div>
+            <span class="brand-name">Aisa Group</span>
+            <span class="brand-tag">Holdings internacionales</span>
+          </div>
+        </div>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">
+          <span class="sr-only">Abrir navegación</span>
+          ☰
+        </button>
+        <nav class="main-nav" id="main-nav" aria-label="Principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#divisiones">Divisiones</a>
+          <a href="#estructura">Estructura</a>
+          <a href="#mision">Misión y valores</a>
+          <a href="#historia">Historia</a>
+          <a href="#sostenibilidad">Sostenibilidad</a>
+          <a href="#noticias">Noticias</a>
           <a href="#contacto">Contacto</a>
         </nav>
-        <div class="header-actions">
-          <button class="btn btn-ghost" type="button">Iniciar sesión</button>
-          <button class="icon-button" type="button" aria-label="Abrir carrito">
-            <span class="icon">🛒</span>
-          </button>
+        <div class="header-lang" role="group" aria-label="Seleccionar idioma">
+          <button type="button" class="lang active">ES</button>
+          <button type="button" class="lang">EN</button>
         </div>
       </header>
 
       <main>
-        <section class="hero" id="novedades">
-          <div class="hero-left" data-animate>
-            <span class="eyebrow">Colección Primavera 2024</span>
-            <h1>
-              Eleva tus espacios con la simplicidad elegante del diseño de
-              mobiliario
-            </h1>
-            <p>
-              Creamos piezas atemporales con maderas nobles y textiles premium
-              para transformar cualquier estancia en un refugio de calma y
-              estilo.
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-content" data-animate>
+            <p class="eyebrow">De la tierra al mar, de la mina al viñedo</p>
+            <h1 id="hero-title">Bienvenido a Aisa Group</h1>
+            <p class="hero-lead">
+              Grupo empresarial familiar con base en Canadá y equipos en cuatro
+              continentes. Invertimos en minería, energías renovables, real estate
+              y distribución internacional de alimentos para acelerar un
+              crecimiento responsable.
             </p>
             <div class="hero-actions">
-              <a class="btn btn-primary" href="#colecciones">Ver colección</a>
-              <a class="btn btn-outline" href="#video">Ver video</a>
+              <a class="btn btn-primary" href="#divisiones">Explorar divisiones</a>
+              <a class="btn btn-outline" href="#noticias">Ver noticias</a>
             </div>
-            <div class="hero-tags">
-              <article class="hero-card" data-animate>
-                <img src="https://picsum.photos/seed/lounge/360/260" alt="Sillón moderno" />
-                <div class="card-content">
-                  <div>
-                    <h3>Meghan Rona Stool</h3>
-                    <p>Disponible en cuatro acabados con tejidos fáciles de limpiar.</p>
-                  </div>
-                  <button class="icon-button" aria-label="Guardar producto">➔</button>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="hero-right" data-animate>
-            <div class="hero-highlight">
-              <img src="https://picsum.photos/seed/loft/520/460" alt="Sofá moderno" />
-              <div class="highlight-content">
-                <span class="badge">Modern Loft Sofa Set</span>
-                <p>Sofisticado, modular y listo para acompañar tus momentos más acogedores.</p>
+            <dl class="hero-stats" data-animate>
+              <div>
+                <dt>7 bases globales</dt>
+                <dd>Canadá, EE. UU., Argentina, Reino Unido, España, India y China</dd>
               </div>
-            </div>
-            <div class="hero-secondary">
-              <article class="hero-mini" data-animate>
-                <img src="https://picsum.photos/seed/green/260/260" alt="Sillón verde" />
-                <div class="mini-content">
-                  <h4>Green Serenity Armchair</h4>
-                  <p>Capas de textura y confort para tu sala de estar.</p>
-                </div>
+              <div>
+                <dt>Portafolio diversificado</dt>
+                <dd>Minería de oro, energía solar, carne, mariscos, agro y real estate</dd>
+              </div>
+              <div>
+                <dt>Compromiso sostenible</dt>
+                <dd>Reinversión en proyectos con impacto económico y social</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="hero-visual" data-animate>
+            <figure class="hero-figure">
+              <img
+                src="https://images.unsplash.com/photo-1543248939-ff40856f65d4?auto=format&fit=crop&w=960&q=80"
+                alt="Vista aérea de una mina a cielo abierto"
+                loading="lazy"
+              />
+              <figcaption>
+                Operación Gualcamayo · San Juan, Argentina
+              </figcaption>
+            </figure>
+            <div class="hero-highlights">
+              <article>
+                <h3>Minería responsable</h3>
+                <p>
+                  Minas Argentinas S.A. impulsa la recuperación de pilas y el
+                  proyecto Deep Carbonates con estándares internacionales.
+                </p>
               </article>
-              <article class="hero-mini" data-animate>
-                <img src="https://picsum.photos/seed/wood/260/260" alt="Silla de madera" />
-                <div class="mini-content">
-                  <h4>Oakline Dining Chair</h4>
-                  <p>Diseño ergonómico con curvas orgánicas y detalles minimalistas.</p>
-                </div>
+              <article>
+                <h3>Transición energética</h3>
+                <p>
+                  Calicanto desarrolla parques solares de hasta 1.000 MW para
+                  abastecer a nuestras operaciones y sistemas regionales.
+                </p>
               </article>
             </div>
           </div>
         </section>
 
-        <section class="stats" aria-label="Métricas principales">
-          <div class="stat" data-animate>
-            <span class="stat-value">900+</span>
-            <span class="stat-label">Productos que amamos</span>
-          </div>
-          <div class="divider" aria-hidden="true"></div>
-          <div class="stat" data-animate>
-            <span class="stat-value">21K+</span>
-            <span class="stat-label">Clientes felices</span>
-          </div>
-          <div class="divider" aria-hidden="true"></div>
-          <div class="stat" data-animate>
-            <span class="stat-value">95%</span>
-            <span class="stat-label">Satisfacción garantizada</span>
-          </div>
-          <div class="divider" aria-hidden="true"></div>
-          <div class="stat" data-animate>
-            <span class="stat-value">400+</span>
-            <span class="stat-label">Diseños únicos cada año</span>
-          </div>
-        </section>
-
-        <section class="comfort" id="colecciones">
-          <div class="comfort-text" data-animate>
-            <span class="eyebrow">Add Comfort To Your Living</span>
-            <h2>Ambientes envolventes creados para tu estilo de vida</h2>
+        <section class="experience" aria-labelledby="experience-title">
+          <div class="section-heading">
+            <h2 id="experience-title">Experiencia multisectorial</h2>
             <p>
-              Inspirados en formas orgánicas y paletas serenas, nuestros
-              diseñadores combinan materiales sustentables con procesos
-              artesanales para crear piezas únicas.
+              Combinamos ingeniería, logística global y gestión sostenible para
+              llevar productos y proyectos de alta calidad a mercados clave.
             </p>
-            <div class="pill-list">
-              <span class="pill">Sofás modulares</span>
-              <span class="pill">Sillas lounge</span>
-              <span class="pill">Mesas de centro</span>
-              <span class="pill">Accesorios deco</span>
-            </div>
           </div>
-          <div class="comfort-gallery" data-animate>
-            <figure class="gallery-card large">
-              <img src="https://picsum.photos/seed/relax/440/520" alt="Sala minimalista" />
-              <figcaption>Espacios fluidos que respiran calma.</figcaption>
-            </figure>
-            <figure class="gallery-card">
-              <img src="https://picsum.photos/seed/earth/320/360" alt="Detalle de sillón" />
-              <figcaption>Texturas naturales para tu descanso.</figcaption>
-            </figure>
-            <figure class="gallery-card">
-              <img src="https://picsum.photos/seed/light/320/360" alt="Decoración con luz cálida" />
-              <figcaption>Luz cálida y armoniosa en cada rincón.</figcaption>
-            </figure>
-          </div>
-        </section>
-
-        <section class="curated" aria-labelledby="curated-title">
-          <div class="curated-header" data-animate>
-            <h2 id="curated-title">Curated Collections</h2>
-            <p>
-              Seleccionamos sets completos listos para transformar tu hogar con
-              piezas que combinan confort, artesanía y durabilidad.
-            </p>
-            <a class="btn btn-outline" href="#colecciones">Explorar todo</a>
-          </div>
-          <div class="curated-grid">
-            <article class="collection-card" data-animate>
-              <img src="https://picsum.photos/seed/suite/420/320" alt="Colección Living" />
-              <div class="collection-content">
-                <h3>Living Serenity</h3>
-                <p>Sillón, otomana y lámpara de piso para tu refugio perfecto.</p>
-              </div>
+          <div class="experience-grid">
+            <article data-animate>
+              <span class="icon" aria-hidden="true">⛏️</span>
+              <h3>Minería &amp; metalurgia</h3>
+              <p>
+                Recuperación secundaria, estudios geológicos de clase mundial y
+                expansión a largo plazo con el Deep Carbonates Project.
+              </p>
             </article>
-            <article class="collection-card" data-animate>
-              <img src="https://picsum.photos/seed/sunset/420/320" alt="Colección terraza" />
-              <div class="collection-content">
-                <h3>Sunset Terrace</h3>
-                <p>Textiles resistentes al clima con fibras recicladas.</p>
-              </div>
+            <article data-animate>
+              <span class="icon" aria-hidden="true">☀️</span>
+              <h3>Energía solar</h3>
+              <p>
+                Parques fotovoltaicos en San Luis y San Juan diseñados para
+                generar energía limpia y competitiva.
+              </p>
             </article>
-            <article class="collection-card" data-animate>
-              <img src="https://picsum.photos/seed/studio/420/320" alt="Colección estudio" />
-              <div class="collection-content">
-                <h3>Nordic Studio</h3>
-                <p>Espacios de trabajo flexibles con mesas ajustables.</p>
-              </div>
+            <article data-animate>
+              <span class="icon" aria-hidden="true">🥩</span>
+              <h3>Proteína animal</h3>
+              <p>
+                Exportamos carne vacuna premium a más de doce destinos con una
+                red de frigoríficos líderes en Argentina.
+              </p>
+            </article>
+            <article data-animate>
+              <span class="icon" aria-hidden="true">🦐</span>
+              <h3>Mariscos patagónicos</h3>
+              <p>
+                Cabo Vírgenes aporta 15.000 t/año de langostino con cadenas de
+                frío integradas en América y Europa.
+              </p>
+            </article>
+            <article data-animate>
+              <span class="icon" aria-hidden="true">🌾</span>
+              <h3>Agro &amp; commodities</h3>
+              <p>
+                Líderes en vino a granel, mostos, granos y aceites, conectando
+                productores con mercados globales.
+              </p>
+            </article>
+            <article data-animate>
+              <span class="icon" aria-hidden="true">🏗️</span>
+              <h3>Real estate</h3>
+              <p>
+                Desarrollo urbano de uso mixto en San Juan con viviendas, hotel,
+                espacios culturales y gastronómicos.
+              </p>
             </article>
           </div>
         </section>
 
-        <section class="craft" id="nosotros">
-          <div class="craft-media" data-animate>
-            <img src="https://picsum.photos/seed/craft/540/520" alt="Artesana tapizando una silla" />
-          </div>
-          <div class="craft-text" data-animate>
-            <span class="eyebrow">Diseño con propósito</span>
-            <h2>
-              Creamos espacios conscientes donde la comodidad y la artesanía se
-              encuentran
-            </h2>
+        <section class="divisions" id="divisiones" aria-labelledby="divisions-title">
+          <div class="section-heading">
+            <h2 id="divisions-title">Divisiones estratégicas</h2>
             <p>
-              Nuestro estudio colabora con artesanos locales para asegurar que
-              cada pieza tenga un impacto positivo en tu hogar y en el planeta.
-              Descubre materiales certificados, procesos éticos y acabados
-              impecables.
+              Cada unidad opera con equipos especializados y métricas claras que
+              refuerzan la resiliencia del grupo.
             </p>
-            <div class="features">
-              <div class="feature">
-                <span class="feature-icon">♻️</span>
-                <div>
-                  <h4>Materiales responsables</h4>
-                  <p>Maderas reforestadas, textiles reciclados y cueros veganos.</p>
-                </div>
+          </div>
+          <div
+            class="slider"
+            data-slider
+            data-autoplay="7000"
+            aria-label="Divisiones Aisa Group"
+          >
+            <button class="slider-control prev" type="button" aria-label="Anterior" data-slider-prev>
+              ←
+            </button>
+            <div class="slider-track" data-slider-track>
+              <article class="division-card">
+                <header>
+                  <h3>Minería · Gualcamayo</h3>
+                  <span class="tag">Minas Argentinas S.A.</span>
+                </header>
+                <p>
+                  343k onzas GEO recuperables en pilas (JORC 2024) y Deep
+                  Carbonates Project con más de 3M onzas de recursos. Objetivo de
+                  120k onzas/año durante al menos 17 años.
+                </p>
+                <ul>
+                  <li>Factibilidad del DCP prevista para 2025</li>
+                  <li>Programa de seguridad y ambiente de estándar internacional</li>
+                </ul>
+              </article>
+              <article class="division-card">
+                <header>
+                  <h3>Energías renovables · Calicanto</h3>
+                  <span class="tag">Transición energética</span>
+                </header>
+                <p>
+                  Parque fotovoltaico de 22 MW en San Luis (51 MW en fase
+                  ampliada) y plan integral de 800–1000 MW en Gualcamayo para
+                  autoconsumo y red regional.
+                </p>
+                <ul>
+                  <li>Primera etapa 50 MW bajo régimen RIGI</li>
+                  <li>Inversión estimada USD 600M a largo plazo</li>
+                </ul>
+              </article>
+              <article class="division-card">
+                <header>
+                  <h3>Carne bovina</h3>
+                  <span class="tag">Exportación 12+ destinos</span>
+                </header>
+                <p>
+                  Desde 2022 articulamos una red de frigoríficos líderes que
+                  exportan más de 25.000 toneladas anuales de carne premium.
+                </p>
+                <ul>
+                  <li>Protocolos de trazabilidad y bienestar animal</li>
+                  <li>Catálogo adaptado a preferencias regionales</li>
+                </ul>
+              </article>
+              <article class="division-card">
+                <header>
+                  <h3>Pescado y marisco</h3>
+                  <span class="tag">Cabo Vírgenes S.A.</span>
+                </header>
+                <p>
+                  Planta en Rawson de 10.000 m², cámaras a -27 ºC con capacidad
+                  para más de 5.000 pallets y exportación de 15.000 t/año de
+                  langostino patagónico.
+                </p>
+                <ul>
+                  <li>Centro logístico en Palencia (España)</li>
+                  <li>Buque Espartano: 2.200 toneladas/año de captura</li>
+                </ul>
+              </article>
+              <article class="division-card">
+                <header>
+                  <h3>Productos agrícolas</h3>
+                  <span class="tag">Supply chain global</span>
+                </header>
+                <p>
+                  Liderazgo en vino a granel en Europa Central (30% cuota), 20 M
+                  de litros anuales a China y 7.000 t de mosto concentrado.
+                </p>
+                <ul>
+                  <li>Expansión a granos y aceites vegetales</li>
+                  <li>Alianzas con productores en América, Europa y Asia</li>
+                </ul>
+              </article>
+              <article class="division-card">
+                <header>
+                  <h3>Real estate</h3>
+                  <span class="tag">San Juan · Argentina</span>
+                </header>
+                <p>
+                  Desarrollo de más de 6 hectáreas con 160–200 viviendas, hotel
+                  internacional, 70+ locales comerciales, museo y oficinas.
+                </p>
+                <ul>
+                  <li>Diseño conjunto con estudios locales y europeos</li>
+                  <li>Estrategia de uso mixto y activación urbana</li>
+                </ul>
+              </article>
+            </div>
+            <button class="slider-control next" type="button" aria-label="Siguiente" data-slider-next>
+              →
+            </button>
+          </div>
+        </section>
+
+        <section class="corporate" id="estructura" aria-labelledby="corporate-title">
+          <div class="section-heading">
+            <h2 id="corporate-title">Estructura corporativa</h2>
+            <p>
+              Holding familiar con equipos internacionales, enfoque de inversión
+              inteligente y reinversión constante en proyectos de alto impacto
+              económico y social.
+            </p>
+          </div>
+          <div class="corporate-grid">
+            <article data-animate>
+              <h3>Gobierno corporativo</h3>
+              <p>
+                Modelo de dirección ágil con comités de sostenibilidad, riesgos y
+                crecimiento para garantizar decisiones informadas y responsables.
+              </p>
+            </article>
+            <article data-animate>
+              <h3>Capital paciente</h3>
+              <p>
+                Reinvertimos los beneficios en iniciativas de largo plazo que
+                fortalecen las cadenas de valor en minería, energía y alimentos.
+              </p>
+            </article>
+            <article data-animate>
+              <h3>Equipos integrados</h3>
+              <p>
+                Talento multicultural coordinado desde Canadá con hubs en América,
+                Europa y Asia para acelerar la ejecución.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="mission" id="mision" aria-labelledby="mission-title">
+          <div class="section-heading">
+            <h2 id="mission-title">Misión, visión y valores</h2>
+            <p>
+              Trabajamos con visión de futuro y compromiso con las comunidades en
+              las que operamos.
+            </p>
+          </div>
+          <div class="mission-grid">
+            <article>
+              <h3>Misión</h3>
+              <p>
+                Liderar el desarrollo de proyectos sostenibles y diversificados,
+                entregando productos y servicios de alta calidad que impulsen el
+                crecimiento responsable.
+              </p>
+            </article>
+            <article>
+              <h3>Visión</h3>
+              <p>
+                Ser un referente global en negocios sostenibles y en la creación
+                de un legado positivo para las próximas generaciones.
+              </p>
+            </article>
+            <article>
+              <h3>Valores</h3>
+              <ul>
+                <li>Integridad</li>
+                <li>Sostenibilidad</li>
+                <li>Excelencia</li>
+                <li>Responsabilidad social</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="timeline" id="historia" aria-labelledby="timeline-title">
+          <div class="section-heading">
+            <h2 id="timeline-title">Historia y evolución</h2>
+            <p>Dos décadas de expansión desde el vino a los proyectos de gran escala.</p>
+          </div>
+          <ol class="timeline-list">
+            <li data-animate>
+              <div class="year">2000s</div>
+              <div class="content">
+                Primer gran éxito exportando vino embotellado de Castilla-La Mancha a China.
               </div>
-              <div class="feature">
-                <span class="feature-icon">✨</span>
-                <div>
-                  <h4>Detalles a medida</h4>
-                  <p>Personaliza colores, módulos y terminaciones para tu espacio.</p>
-                </div>
+            </li>
+            <li data-animate>
+              <div class="year">2015–2021</div>
+              <div class="content">
+                Liderazgo en vino a granel en Europa Central, expansión a mostos, granos y aceites vegetales.
+              </div>
+            </li>
+            <li data-animate>
+              <div class="year">2022</div>
+              <div class="content">
+                Diversificación hacia carne y mariscos con redes de distribución internacional.
+              </div>
+            </li>
+            <li data-animate>
+              <div class="year">2023</div>
+              <div class="content">
+                Adquisición de Minas Argentinas S.A. (Gualcamayo) y relanzamiento operativo.
+              </div>
+            </li>
+            <li data-animate>
+              <div class="year">2024</div>
+              <div class="content">
+                Inicio de proyectos solares y adquisición de terreno para desarrollo urbano de uso mixto en San Juan.
+              </div>
+            </li>
+            <li data-animate>
+              <div class="year">2025</div>
+              <div class="content">
+                Integración de Cabo Vírgenes S.A. y presentación de plan RIGI para inversiones estratégicas.
+              </div>
+            </li>
+          </ol>
+        </section>
+
+        <section class="presence" aria-labelledby="presence-title">
+          <div class="section-heading">
+            <h2 id="presence-title">Presencia global</h2>
+            <p>
+              Operamos con oficinas y hubs en mercados estratégicos para conectar
+              producción y consumo.
+            </p>
+          </div>
+          <div class="presence-grid">
+            <article>Canadá</article>
+            <article>Estados Unidos</article>
+            <article>Argentina</article>
+            <article>Reino Unido</article>
+            <article>España</article>
+            <article>India</article>
+            <article>China</article>
+          </div>
+        </section>
+
+        <section class="sustainability" id="sostenibilidad" aria-labelledby="sustainability-title">
+          <div class="section-heading">
+            <h2 id="sustainability-title">Sostenibilidad como eje</h2>
+            <p>
+              Invertimos en tecnologías limpias y estándares sociales rigurosos en
+              todas nuestras operaciones.
+            </p>
+          </div>
+          <div class="pillars-grid">
+            <article data-animate>
+              <h3>Ambiente</h3>
+              <p>Gestión responsable de recursos y planes de cierre progresivo.</p>
+            </article>
+            <article data-animate>
+              <h3>Gestión social</h3>
+              <p>Programas comunitarios y empleo local con enfoque inclusivo.</p>
+            </article>
+            <article data-animate>
+              <h3>Clima</h3>
+              <p>Reducción de huella de carbono mediante energía renovable.</p>
+            </article>
+            <article data-animate>
+              <h3>Desarrollo sostenible</h3>
+              <p>Inversiones que dinamizan economías regionales y cadenas de valor.</p>
+            </article>
+            <article data-animate>
+              <h3>Derechos humanos</h3>
+              <p>Compromiso con estándares internacionales y debida diligencia.</p>
+            </article>
+            <article data-animate>
+              <h3>Salud y seguridad</h3>
+              <p>Protocolos rigurosos para colaboradores y contratistas.</p>
+            </article>
+            <article data-animate>
+              <h3>Gobernanza</h3>
+              <p>Estructuras de control y transparencia en la toma de decisiones.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="insights" aria-labelledby="insights-title">
+          <div class="section-heading">
+            <h2 id="insights-title">RIGI y transición energética</h2>
+            <p>
+              Actualizaciones clave de nuestro plan de inversiones y proyectos
+              solares vinculados al programa RIGI en Argentina.
+            </p>
+          </div>
+          <div class="insights-grid">
+            <article data-animate>
+              <h3>Plan de USD 1.000M</h3>
+              <p>
+                Presentamos al RIGI un programa integral que combina expansión del
+                Deep Carbonates Project, parque solar de 50 MW y mejoras de
+                infraestructura industrial.
+              </p>
+            </article>
+            <article data-animate>
+              <h3>Ajuste 2025</h3>
+              <p>
+                Actualizamos la inversión estimada a USD 665M, manteniendo la meta
+                de producir 120k onzas anuales desde 2029 y energizar con 50 MW
+                solares iniciales.
+              </p>
+            </article>
+            <article data-animate>
+              <h3>Proyecto solar 1.000 MW</h3>
+              <p>
+                Calicanto propone un parque de hasta 1.000 MW en San Juan para
+                abastecer operaciones y sumar energía limpia a la red nacional.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="news" id="noticias" aria-labelledby="news-title">
+          <div class="section-heading">
+            <h2 id="news-title">Noticias recientes</h2>
+            <p>
+              Historias que marcan nuestro crecimiento sostenible y alianzas
+              estratégicas.
+            </p>
+          </div>
+          <div class="news-grid">
+            <article data-animate>
+              <time datetime="2025-01-24">24 Ene 2025</time>
+              <h3>Aisa Group adquiere la pesquera Cabo Vírgenes</h3>
+              <p>
+                Integración de planta, logística y flota pesquera para reforzar la
+                división de mariscos con presencia en más de 50 países.
+              </p>
+              <a href="#contacto" class="link-arrow">Conoce el proyecto</a>
+            </article>
+            <article data-animate>
+              <time datetime="2024-11-12">12 Nov 2024</time>
+              <h3>Plan de inversión RIGI presentado por USD 1.000M</h3>
+              <p>
+                Minas Argentinas apunta a ampliar Gualcamayo, sumar 50 MW solares
+                y optimizar la cadena industrial del norte argentino.
+              </p>
+              <a href="#insights" class="link-arrow">Ver detalles</a>
+            </article>
+            <article data-animate>
+              <time datetime="2024-10-01">01 Oct 2024</time>
+              <h3>Lanzamos la nueva web corporativa</h3>
+              <p>
+                Un hub informativo para inversores, socios y comunidades con foco
+                en transparencia y sostenibilidad.
+              </p>
+              <a href="#inicio" class="link-arrow">Explorar Aisa Group</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="contact" id="contacto" aria-labelledby="contact-title">
+          <div class="section-heading">
+            <h2 id="contact-title">Conversemos sobre nuevos proyectos</h2>
+            <p>
+              Escríbenos para conocer oportunidades de colaboración, inversión o
+              abastecimiento responsable.
+            </p>
+          </div>
+          <div class="contact-grid">
+            <form class="contact-form">
+              <label>
+                Nombre
+                <input type="text" name="name" placeholder="Nombre completo" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="nombre@empresa.com" required />
+              </label>
+              <label>
+                Mensaje
+                <textarea name="message" rows="4" placeholder="Cuéntanos en qué podemos ayudarte" required></textarea>
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" name="newsletter" />
+                Deseo recibir novedades institucionales
+              </label>
+              <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            </form>
+            <div class="contact-info">
+              <div>
+                <h3>Contacto directo</h3>
+                <p><a href="mailto:contact@aisagroup.ca">contact@aisagroup.ca</a></p>
+                <p><a href="tel:+13122858599">+1 (312) 285-8599</a></p>
+              </div>
+              <div>
+                <h3>Síguenos</h3>
+                <a href="https://www.linkedin.com/company/aisagroupca" target="_blank" rel="noreferrer">
+                  LinkedIn corporativo
+                </a>
+              </div>
+              <div>
+                <h3>Ubicaciones clave</h3>
+                <ul>
+                  <li>Toronto · Oficina central</li>
+                  <li>Buenos Aires · Trading &amp; carne</li>
+                  <li>San Juan · Minería y energía</li>
+                  <li>Palencia · Logística mariscos</li>
+                </ul>
               </div>
             </div>
-            <a class="btn btn-primary" href="#contacto">Agenda una cita</a>
           </div>
         </section>
       </main>
 
-      <footer class="site-footer" id="contacto">
-        <div class="footer-brand" data-animate>
-          <div class="brand">Furnice</div>
-          <p>Diseñamos piezas que cuentan historias en cada hogar.</p>
-        </div>
-        <form class="footer-form" data-animate>
-          <label for="newsletter" class="form-label">Únete a nuestra newsletter</label>
-          <div class="form-control">
-            <input
-              id="newsletter"
-              type="email"
-              name="email"
-              placeholder="Ingresa tu correo"
-              required
-            />
-            <button type="submit" class="btn btn-primary">Suscribirme</button>
+      <footer class="site-footer">
+        <div class="footer-brand">
+          <span class="brand-mark" aria-hidden="true">AG</span>
+          <div>
+            <span>Aisa Group</span>
+            <small>© <span id="year"></span> Todos los derechos reservados.</small>
           </div>
-        </form>
-        <div class="footer-meta" data-animate>
-          <span>© 2024 Furnice Studio. Todos los derechos reservados.</span>
-          <a href="#">Política de privacidad</a>
+        </div>
+        <div class="footer-links">
+          <a href="#sostenibilidad">Sostenibilidad</a>
+          <a href="#divisiones">Divisiones</a>
+          <a href="#noticias">Noticias</a>
+        </div>
+        <div class="footer-contact">
+          <a href="mailto:info@aisagroup.ca">info@aisagroup.ca</a>
         </div>
       </footer>
     </div>
-
     <script src="script.js" defer></script>
   </body>
 </html>
